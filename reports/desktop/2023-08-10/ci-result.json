@@ -1,0 +1,1594 @@
+[
+  {
+    "path": "/",
+    "score": 0.85,
+    "performance": 0.74,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/2023-national-youth-summit",
+    "score": 0.87,
+    "performance": 0.81,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/21st-century-integrated-digital-experience-act",
+    "score": 0.9,
+    "performance": 0.94,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/232-portal-instruction-video-links",
+    "score": 0.88,
+    "performance": 0.93,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/about",
+    "score": 0.9,
+    "performance": 0.93,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/budget-and-performance/evaluation",
+    "score": 0.9,
+    "performance": 0.95,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/budget-and-performance/FY-2021-congressional-bureau-justification",
+    "score": 0.9,
+    "performance": 0.93,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/budget-and-performance/FY-2022-congressional-bureau-justification",
+    "score": 0.89,
+    "performance": 0.91,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/budget-and-performance/fy-2023-congressional-bureau-justification",
+    "score": 0.89,
+    "performance": 0.91,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/budget-and-performance/fy-2024-congressional-bureau-justification",
+    "score": 0.89,
+    "performance": 0.91,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/budget-and-performance/past-budgets-performance-reports",
+    "score": 0.91,
+    "performance": 0.96,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/combined-federal-campaign",
+    "score": 0.85,
+    "performance": 0.84,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/about/combined-federal-campaign/2022-commerce-cfc-team",
+    "score": 0.91,
+    "performance": 0.96,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/combined-federal-campaign/campaign-worker-resources",
+    "score": 0.91,
+    "performance": 0.96,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/combined-federal-campaign/leadership-video-messages",
+    "score": 0.78,
+    "performance": 0.56,
+    "accessibility": 0.97,
+    "best-practices": 0.67,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/equity/equity-deia-council",
+    "score": 0.79,
+    "performance": 0.61,
+    "accessibility": 0.97,
+    "best-practices": 0.67,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/history",
+    "score": 0.9,
+    "performance": 0.94,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/history/evolution",
+    "score": 0.9,
+    "performance": 0.94,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/history/hchb",
+    "score": 0.9,
+    "performance": 0.94,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/history/origins",
+    "score": 0.9,
+    "performance": 0.94,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/history/past-secretaries",
+    "score": 0.91,
+    "performance": 0.96,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/leadership",
+    "score": 0.87,
+    "performance": 0.92,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/about/leadership/dr-john-c-fleming",
+    "score": 0.88,
+    "performance": 0.96,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/about/leadership/gina-m-raimondo",
+    "score": 0.8,
+    "performance": 0.72,
+    "accessibility": 0.97,
+    "best-practices": 0.67,
+    "seo": 0.83
+  },
+  {
+    "path": "/about/leadership/jane-dokko",
+    "score": 0.88,
+    "performance": 0.96,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/about/leadership/judy-grady",
+    "score": 0.88,
+    "performance": 0.95,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/about/leadership/kurt-bersani",
+    "score": 0.88,
+    "performance": 0.95,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/about/leadership/nazak-nikakhtar",
+    "score": 0.88,
+    "performance": 0.95,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/about/leadership/ron-jarmin",
+    "score": 0.88,
+    "performance": 0.95,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/about/leadership/wendy-teramoto",
+    "score": 0.88,
+    "performance": 0.96,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/about/office-faith-based-and-neighborhood-partnerships-national-summit",
+    "score": 0.86,
+    "performance": 0.78,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/osdbu-small-business-report-forms",
+    "score": 0.91,
+    "performance": 0.96,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/osdbu-subcontracting",
+    "score": 0.9,
+    "performance": 0.95,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/policies",
+    "score": 0.89,
+    "performance": 0.91,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/policies/accessibility",
+    "score": 0.88,
+    "performance": 0.86,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/policies/comments",
+    "score": 0.9,
+    "performance": 0.93,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/policies/information-quality",
+    "score": 0.9,
+    "performance": 0.93,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/policies/ipv6-policy",
+    "score": 0.89,
+    "performance": 0.91,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/policies/plain-language",
+    "score": 0.89,
+    "performance": 0.91,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/policies/privacy",
+    "score": 0.89,
+    "performance": 0.9,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/policies/social-media",
+    "score": 0.89,
+    "performance": 0.91,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/policies/source-code",
+    "score": 0.9,
+    "performance": 0.95,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/strategic-plan",
+    "score": 0.9,
+    "performance": 0.95,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/access-denied",
+    "score": 0.9,
+    "performance": 0.92,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/american-workforce-policy-advisory-board",
+    "score": 0.9,
+    "performance": 0.92,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/archives",
+    "score": 0.91,
+    "performance": 0.96,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/bureaus-and-offices",
+    "score": 0.87,
+    "performance": 0.91,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/bureaus-and-offices/bea",
+    "score": 0.88,
+    "performance": 0.92,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/bureaus-and-offices/bis",
+    "score": 0.89,
+    "performance": 0.95,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/bureaus-and-offices/census",
+    "score": 0.87,
+    "performance": 0.9,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/bureaus-and-offices/eda",
+    "score": 0.89,
+    "performance": 0.95,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/bureaus-and-offices/mbda",
+    "score": 0.88,
+    "performance": 0.92,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/bureaus-and-offices/noaa",
+    "score": 0.87,
+    "performance": 0.87,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/bureaus-and-offices/noaa/nesdis",
+    "score": 0.86,
+    "performance": 0.95,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/bureaus-and-offices/noaa/nmfs",
+    "score": 0.86,
+    "performance": 0.95,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/bureaus-and-offices/noaa/nos",
+    "score": 0.87,
+    "performance": 0.96,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/bureaus-and-offices/noaa/nws",
+    "score": 0.86,
+    "performance": 0.93,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/bureaus-and-offices/noaa/oar",
+    "score": 0.86,
+    "performance": 0.93,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/bureaus-and-offices/noaa/omao",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/bureaus-and-offices/ntia",
+    "score": 0.88,
+    "performance": 0.92,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/bureaus-and-offices/ntia/firstnet",
+    "score": 0.86,
+    "performance": 0.93,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/bureaus-and-offices/office-secretary",
+    "score": 0.88,
+    "performance": 0.94,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/bureaus-and-offices/os/business-liaison",
+    "score": 0.88,
+    "performance": 0.91,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/bureaus-and-offices/os/cfo-asa/budget",
+    "score": 0.88,
+    "performance": 0.93,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/bureaus-and-offices/os/cfo-asa/facilities-and-environmental-quality",
+    "score": 0.89,
+    "performance": 0.95,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/bureaus-and-offices/os/cfo-asa/financial-management",
+    "score": 0.88,
+    "performance": 0.92,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/bureaus-and-offices/os/cfo-asa/human-resources",
+    "score": 0.87,
+    "performance": 0.92,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/bureaus-and-offices/os/cfo-asa/intelligence-and-security",
+    "score": 0.89,
+    "performance": 0.95,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/bureaus-and-offices/os/cfo-asa/intelligence-and-security/intelligence",
+    "score": 0.88,
+    "performance": 0.94,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/bureaus-and-offices/os/cfo-asa/ois/irmpo",
+    "score": 0.86,
+    "performance": 0.85,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/bureaus-and-offices/os/cfo-asa/privacy-and-open-government",
+    "score": 0.87,
+    "performance": 0.89,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/bureaus-and-offices/os/cfo-asa/program-evaluation-and-risk-management",
+    "score": 0.85,
+    "performance": 0.91,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/bureaus-and-offices/os/cfo-asa/small-and-disadvantaged-business-utilization",
+    "score": 0.88,
+    "performance": 0.94,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/bureaus-and-offices/os/chief-information-officer",
+    "score": 0.88,
+    "performance": 0.94,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/bureaus-and-offices/os/chief-staff",
+    "score": 0.88,
+    "performance": 0.93,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/bureaus-and-offices/os/faith-based-and-neighborhood-partnerships",
+    "score": 0.88,
+    "performance": 0.93,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/bureaus-and-offices/os/general-counsel",
+    "score": 0.83,
+    "performance": 0.71,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/bureaus-and-offices/os/legislative-and-intergovernmental-affairs",
+    "score": 0.88,
+    "performance": 0.92,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/bureaus-and-offices/os/olia/native-american-affairs",
+    "score": 0.88,
+    "performance": 0.91,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/bureaus-and-offices/os/opa/digital-engagement",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/bureaus-and-offices/os/public-affairs",
+    "score": 0.87,
+    "performance": 0.87,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/bureaus-and-offices/os/white-house-liaison",
+    "score": 0.88,
+    "performance": 0.94,
+    "accessibility": 0.92,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/bureaus-and-offices/ousea/concrete-masonry-checkoff",
+    "score": 0.86,
+    "performance": 0.79,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/bureaus-and-offices/ousea/national-concrete-masonry-products-board",
+    "score": 0.9,
+    "performance": 0.94,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/bureaus-and-offices/ousea/regional-economic-research-initiative",
+    "score": 0.91,
+    "performance": 0.96,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/bureaus-and-offices/ousea/spotlight-women-labor-force",
+    "score": 0.9,
+    "performance": 0.94,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/covid-19-information-hub",
+    "score": 0.9,
+    "performance": 0.95,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr",
+    "score": 0.86,
+    "performance": 0.94,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.75
+  },
+  {
+    "path": "/cr/2019FirstGenSummit",
+    "score": 0.77,
+    "performance": 0.52,
+    "accessibility": 0.97,
+    "best-practices": 0.67,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/about-us",
+    "score": 0.89,
+    "performance": 0.91,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/about-us/about-ocr",
+    "score": 0.89,
+    "performance": 0.91,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/about-us/mission-and-core-values",
+    "score": 0.9,
+    "performance": 0.93,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/about-us/ocr-staff/bureau-eeo-officers",
+    "score": 0.88,
+    "performance": 0.89,
+    "accessibility": 0.97,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/about-us/office-civil-rights-staff",
+    "score": 0.89,
+    "performance": 0.93,
+    "accessibility": 0.97,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/about-us/office-divisions",
+    "score": 0.89,
+    "performance": 0.9,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/about-us/office-divisions/client-services-and-resolution-division",
+    "score": 0.9,
+    "performance": 0.93,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/about-us/office-divisions/program-implementation-division",
+    "score": 0.89,
+    "performance": 0.91,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/about-us/organizational-chart",
+    "score": 0.9,
+    "performance": 0.93,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/about-us/program-areas/administration-and-special-projects-division",
+    "score": 0.9,
+    "performance": 0.92,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/about-us/program-areas/policy-and-evaluation-division",
+    "score": 0.9,
+    "performance": 0.93,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/calendar",
+    "score": 0.88,
+    "performance": 0.96,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/cr/calendar/events/blind-americans-equality-day",
+    "score": 0.9,
+    "performance": 0.92,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/calendar/events/constitution-day/citizenship-day",
+    "score": 0.9,
+    "performance": 0.92,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/calendar/events/cross-cultural-awareness-and-diversity",
+    "score": 0.9,
+    "performance": 0.93,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/calendar/events/dussehra-vijaya-dashami/dasara/dashain-hinduism",
+    "score": 0.9,
+    "performance": 0.93,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/calendar/events/emotional-intelligence",
+    "score": 0.9,
+    "performance": 0.93,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/calendar/events/hanukkah-feast-lights/dedication-judaism",
+    "score": 0.9,
+    "performance": 0.92,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/calendar/events/labor-day",
+    "score": 0.89,
+    "performance": 0.89,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/calendar/events/leif-erikson-day",
+    "score": 0.9,
+    "performance": 0.92,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/calendar/events/national-pow/mia-recognition-day",
+    "score": 0.9,
+    "performance": 0.92,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/calendar/events/pearl-harbor-day",
+    "score": 0.89,
+    "performance": 0.9,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/calendar/events/ra-training-managers-and-supervisors",
+    "score": 0.89,
+    "performance": 0.91,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/calendar/events/samhain-gaelic",
+    "score": 0.88,
+    "performance": 0.87,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/complaints/alternative-dispute-resolution-adr",
+    "score": 0.9,
+    "performance": 0.92,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/complaints/complaint-investigations",
+    "score": 0.9,
+    "performance": 0.93,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/complaints/complaint-process-manual/alternative-dispute-resolution",
+    "score": 0.89,
+    "performance": 0.91,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/complaints/complaint-process-manual/appeal-process-eeo-complaints",
+    "score": 0.89,
+    "performance": 0.91,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/complaints/complaint-process-manual/eeo-complaint-process",
+    "score": 0.89,
+    "performance": 0.88,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/complaints/complaint-process-manual/introduction-manual-processing-discrimination-complaints",
+    "score": 0.9,
+    "performance": 0.92,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/complaints/complaint-process-manual/manual-processing-discrimination-complaints",
+    "score": 0.9,
+    "performance": 0.92,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/complaints/complaint-process-manual/manual-processing-discrimination-complaints-authority",
+    "score": 0.9,
+    "performance": 0.92,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/complaints/complaint-process-manual/manual-processing-discrimination-complaints-transmittal",
+    "score": 0.9,
+    "performance": 0.92,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/complaints/complaint-process-manual/remedies-eeo-complaint-process",
+    "score": 0.9,
+    "performance": 0.92,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/complaints/eeo-complaint-process-manual",
+    "score": 0.89,
+    "performance": 0.88,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/complaints/section-508-architectural-barriers-act-aba-notice-rights",
+    "score": 0.9,
+    "performance": 0.95,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/complaints/sexual-orientation-discrimination-complaint-process",
+    "score": 0.9,
+    "performance": 0.92,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/doc-workforce-demographics-gender-race/ethnicity-disability-and-age-group",
+    "score": 0.88,
+    "performance": 0.86,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/executive-order-12106",
+    "score": 0.88,
+    "performance": 0.86,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/executive-order-13152",
+    "score": 0.9,
+    "performance": 0.92,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/executive-order-13164",
+    "score": 0.89,
+    "performance": 0.9,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/files/doc-aggregate-excluding-pto-fy22",
+    "score": 0.86,
+    "performance": 0.88,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/cr/files/fy-2018-affirmative-action-plan",
+    "score": 0.87,
+    "performance": 0.91,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/cr/files/fy22-decennial-q3",
+    "score": 0.87,
+    "performance": 0.9,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/cr/files/ita-2nd",
+    "score": 0.87,
+    "performance": 0.9,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/cr/files/nist-fy20-q2-no-fear-act",
+    "score": 0.86,
+    "performance": 0.85,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/cr/files/no-fear-doc-ita-q3",
+    "score": 0.87,
+    "performance": 0.89,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/cr/files/no-fear-fy21-q1-ita",
+    "score": 0.87,
+    "performance": 0.9,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/cr/files/pregnancy-discrimination-quick-facts",
+    "score": 0.87,
+    "performance": 0.91,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/cr/images/commerce-pride-graphic/logo",
+    "score": 0.86,
+    "performance": 0.88,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/cr/images/commerce-pride-logo-v2",
+    "score": 0.86,
+    "performance": 0.88,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/cr/images/first-generation-professionals-initiative",
+    "score": 0.86,
+    "performance": 0.88,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/cr/images/firstgen-fireside-chat",
+    "score": 0.89,
+    "performance": 0.9,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/images/gobeirnojpg",
+    "score": 0.87,
+    "performance": 0.9,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/cr/images/hchb-pride-logo",
+    "score": 0.87,
+    "performance": 0.9,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/cr/images/inclusion-photo",
+    "score": 0.87,
+    "performance": 0.9,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/cr/images/inclusion-us-logo-0",
+    "score": 0.85,
+    "performance": 0.83,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/cr/images/wheelchairjpg",
+    "score": 0.87,
+    "performance": 0.82,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/mixed-case-complaints",
+    "score": 0.9,
+    "performance": 0.93,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/ocr-policies",
+    "score": 0.89,
+    "performance": 0.91,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/policies/anti-harassment-policy-statement",
+    "score": 0.89,
+    "performance": 0.9,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/policies/department-commerce-organizational-orders-and-administrative-orders",
+    "score": 0.9,
+    "performance": 0.92,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/policies/equal-employment-opportunity-policy-statement",
+    "score": 0.9,
+    "performance": 0.93,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/policies/legal-authorities-ocr",
+    "score": 0.89,
+    "performance": 0.9,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/policies/reasonable-accommodations-employees-or-applicants-disabilities",
+    "score": 0.9,
+    "performance": 0.93,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/programs-and-services/eeo-awards",
+    "score": 0.89,
+    "performance": 0.91,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/programs-and-services/executive-orders-diversity-equity-inclusion-and-accessibility",
+    "score": 0.87,
+    "performance": 0.92,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/cr/programs-and-services/first-generation-professionals-initiative",
+    "score": 0.81,
+    "performance": 0.76,
+    "accessibility": 0.97,
+    "best-practices": 0.67,
+    "seo": 0.83
+  },
+  {
+    "path": "/cr/programs-and-services/how-can-you-support-deia",
+    "score": 0.86,
+    "performance": 0.88,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/cr/programs-and-services/inclusion-us-campaign",
+    "score": 0.84,
+    "performance": 0.78,
+    "accessibility": 0.97,
+    "best-practices": 0.67,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/programs-and-services/limited-english-proficiency-lep",
+    "score": 0.89,
+    "performance": 0.91,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/programs-and-services/reasonable-accommodations-program",
+    "score": 0.88,
+    "performance": 0.93,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/cr/programs-and-services/reasonable-accommodations-program/reasonable-accommodation-coordinators",
+    "score": 0.89,
+    "performance": 0.91,
+    "accessibility": 0.97,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/programs-and-services/special-emphasis-programs",
+    "score": 0.87,
+    "performance": 0.91,
+    "accessibility": 0.99,
+    "best-practices": 0.67,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/programs-and-services/special-emphasis-programs/african-american-employment-program",
+    "score": 0.81,
+    "performance": 0.66,
+    "accessibility": 0.97,
+    "best-practices": 0.67,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/programs-and-services/special-emphasis-programs/american-indian-and-alaska-native-program",
+    "score": 0.9,
+    "performance": 0.92,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/programs-and-services/special-emphasis-programs/asian-american-and-native-hawaiian/pacific",
+    "score": 0.87,
+    "performance": 0.91,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/cr/programs-and-services/special-emphasis-programs/federal-womens-program",
+    "score": 0.8,
+    "performance": 0.71,
+    "accessibility": 0.97,
+    "best-practices": 0.67,
+    "seo": 0.83
+  },
+  {
+    "path": "/cr/programs-and-services/special-emphasis-programs/individuals-disabilities-program",
+    "score": 0.83,
+    "performance": 0.75,
+    "accessibility": 0.97,
+    "best-practices": 0.67,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/programs-and-services/special-emphasis-programs/lesbian-gay-bisexual-transgender-and-queer-lgbtq",
+    "score": 0.89,
+    "performance": 0.88,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/race/color-discrimination",
+    "score": 0.9,
+    "performance": 0.92,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/reports-and-resources/addressing-workplace-issues",
+    "score": 0.9,
+    "performance": 0.93,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/reports-and-resources/discrimination-quick-facts",
+    "score": 0.89,
+    "performance": 0.91,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/reports-and-resources/discrimination-quick-facts/age-discrimination",
+    "score": 0.9,
+    "performance": 0.93,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/reports-and-resources/discrimination-quick-facts/eeo-complaint-investigations",
+    "score": 0.9,
+    "performance": 0.92,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/reports-and-resources/discrimination-quick-facts/mixed-case-complaints",
+    "score": 0.9,
+    "performance": 0.93,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/reports-and-resources/discrimination-quick-facts/national-origin-discrimination",
+    "score": 0.9,
+    "performance": 0.93,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/reports-and-resources/discrimination-quick-facts/pregnancy-discrimination",
+    "score": 0.9,
+    "performance": 0.92,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/reports-and-resources/discrimination-quick-facts/race-and-color-discrimination",
+    "score": 0.9,
+    "performance": 0.93,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/reports-and-resources/discrimination-quick-facts/religious-discrimination",
+    "score": 0.9,
+    "performance": 0.93,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/reports-and-resources/discrimination-quick-facts/sexual-orientation-discrimination",
+    "score": 0.89,
+    "performance": 0.91,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/reports-and-resources/discrimination-quick-facts/sexual-orientation-discrimination/avenues",
+    "score": 0.87,
+    "performance": 0.83,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/reports-and-resources/discrimination-quick-facts/sexual-orientation-discrimination/other-issues",
+    "score": 0.89,
+    "performance": 0.88,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/reports-and-resources/discrimination-quick-facts/sexual-orientation-discrimination/overview",
+    "score": 0.89,
+    "performance": 0.89,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/reports-and-resources/discrimination-quick-facts/sexual-orientation-discrimination/preface",
+    "score": 0.89,
+    "performance": 0.89,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/reports-and-resources/discrimination-quick-facts/sexual-orientation-discrimination/sexual",
+    "score": 0.88,
+    "performance": 0.87,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/reports-and-resources/diversity-and-inclusion-strategic-plan",
+    "score": 0.88,
+    "performance": 0.93,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.83
+  },
+  {
+    "path": "/cr/reports-and-resources/eeo-laws-faq",
+    "score": 0.89,
+    "performance": 0.91,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/reports-and-resources/eeo-mediation-guide",
+    "score": 0.89,
+    "performance": 0.91,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/reports-and-resources/eeo-mediation-guide/appendix-d-department-commerce-alternate-dispute",
+    "score": 0.9,
+    "performance": 0.93,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/reports-and-resources/eeo-mediation-guide/how-can-party-prepare-mediation",
+    "score": 0.9,
+    "performance": 0.93,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/reports-and-resources/eeo-mediation-guide/how-mediation-elected",
+    "score": 0.89,
+    "performance": 0.88,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/reports-and-resources/eeo-mediation-guide/what-alternative-dispute-resolution",
+    "score": 0.89,
+    "performance": 0.89,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/reports-and-resources/eeo-mediation-guide/what-are-departmental-reasons-using-adr-and-mediation",
+    "score": 0.9,
+    "performance": 0.92,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/reports-and-resources/eeo-mediation-guide/what-are-typical-organizational-experiences-mediation",
+    "score": 0.9,
+    "performance": 0.93,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/reports-and-resources/eeo-mediation-guide/when-mediation-inappropriate",
+    "score": 0.89,
+    "performance": 0.91,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/reports-and-resources/eeo-mediation-guide/who-participates-mediation",
+    "score": 0.89,
+    "performance": 0.91,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/cr/reports-and-resources/md-715-reports",
+    "score": 0.9,
+    "performance": 0.93,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/PLACEHOLDER1",
+    "score": 0.9,
+    "performance": 0.93,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  },
+  {
+    "path": "/Practitioners/StrategicManagementofHumanCapital/DEV01_006117",
+    "score": 0.9,
+    "performance": 0.94,
+    "accessibility": 0.99,
+    "best-practices": 0.75,
+    "seo": 0.92
+  }
+]

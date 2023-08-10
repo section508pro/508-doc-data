@@ -1,0 +1,326 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-147-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,19,TABLE,0,TBODY,0,TR,0,TD,0,UL,0,LI,0,A",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1872,
+              "bottom": 1936,
+              "left": 465,
+              "right": 877,
+              "width": 412,
+              "height": 64
+            },
+            "snippet": "<a href=\"http://www.whitehouse.gov/the-press-office/2011/08/18/executive-order-esta…\" rel=\"noreferrer\">",
+            "nodeLabel": "Executive Order 13583: Establishing a Coordinated Government-wide Initiative to…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-249-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,19,TABLE,0,TBODY,0,TR",
+                  "selector": "div.clearfix > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 1851,
+                    "bottom": 2099,
+                    "left": 415,
+                    "right": 914,
+                    "width": 499,
+                    "height": 249
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Executive Order 13583: Establishing a Coordinated Government-wide Initiative to…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-250-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 2925,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2929
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-148-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,19,TABLE,0,TBODY,0,TR,0,TD,0,UL,1,LI,0,A",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 1950,
+              "bottom": 1991,
+              "left": 465,
+              "right": 898,
+              "width": 433,
+              "height": 41
+            },
+            "snippet": "<a href=\"http://frwebgate.access.gpo.gov/cgi-bin/getdoc.cgi?dbname=2000_register&amp;do…\" rel=\"noreferrer\">",
+            "nodeLabel": "Executive Order 13171: Hispanic Employment in the Federal Government (October 1…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-249-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,19,TABLE,0,TBODY,0,TR",
+                  "selector": "div.clearfix > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 1851,
+                    "bottom": 2099,
+                    "left": 415,
+                    "right": 914,
+                    "width": 499,
+                    "height": 249
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Executive Order 13583: Establishing a Coordinated Government-wide Initiative to…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-250-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 2925,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2929
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-149-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,19,TABLE,0,TBODY,0,TR,0,TD,0,UL,2,LI,0,A",
+            "selector": "td > ul > li > a",
+            "boundingRect": {
+              "top": 2005,
+              "bottom": 2046,
+              "left": 465,
+              "right": 868,
+              "width": 403,
+              "height": 41
+            },
+            "snippet": "<a href=\"https://www.opm.gov/policy-data-oversight/diversity-and-inclusion/referenc…\" rel=\"noreferrer\">",
+            "nodeLabel": "Office of Personnel Management (OPM) Hispanic Council on Federal Employment",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-249-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,19,TABLE,0,TBODY,0,TR",
+                  "selector": "div.clearfix > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 1851,
+                    "bottom": 2099,
+                    "left": 415,
+                    "right": 914,
+                    "width": 499,
+                    "height": 249
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Executive Order 13583: Establishing a Coordinated Government-wide Initiative to…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-250-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 2925,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2929
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-150-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,19,TABLE,0,TBODY,0,TR,0,TD,0,UL,3,LI,0,A",
+            "selector": "td > ul > li > a.ext",
+            "boundingRect": {
+              "top": 2059,
+              "bottom": 2077,
+              "left": 465,
+              "right": 839,
+              "width": 374,
+              "height": 18
+            },
+            "snippet": "<a href=\"https://nationalcouncilhepm.org/\" rel=\"noreferrer\" class=\"ext\" data-extlink=\"\">",
+            "nodeLabel": "National Council of Hispanic Employment Program Managers",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-249-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,19,TABLE,0,TBODY,0,TR",
+                  "selector": "div.clearfix > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 1851,
+                    "bottom": 2099,
+                    "left": 415,
+                    "right": 914,
+                    "width": 499,
+                    "height": 249
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Executive Order 13583: Establishing a Coordinated Government-wide Initiative to…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-250-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 2925,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2929
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 4
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-251-H4",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,3,H4",
+            "selector": "article > div > div.clearfix > h4",
+            "boundingRect": {
+              "top": 848,
+              "bottom": 870,
+              "left": 415,
+              "right": 1213,
+              "width": 798,
+              "height": 22
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "News",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

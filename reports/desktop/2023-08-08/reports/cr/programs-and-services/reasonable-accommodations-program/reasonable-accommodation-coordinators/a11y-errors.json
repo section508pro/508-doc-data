@@ -1,0 +1,446 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-140-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,0,TBODY,1,TR,4,TD,0,P,0,A",
+            "selector": "tr > td > p > a.mailto",
+            "boundingRect": {
+              "top": 559,
+              "bottom": 577,
+              "left": 1027,
+              "right": 1156,
+              "width": 129,
+              "height": 18
+            },
+            "snippet": "<a href=\"mailto:OCR.RAC@doc.gov\" rel=\"noreferrer\" class=\"mailto\" data-extlink=\"\">",
+            "nodeLabel": "OCR.RAC@doc.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-246-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,0,TBODY,1,TR",
+                  "selector": "div.clearfix > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 539,
+                    "bottom": 634,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 95
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Lilia Irizarry-Felix\n\n\t\n\nReasonable Accommodation Coordinator \n\n\t\n\nOS, EDA, ITA…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-232-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 2156,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2160
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-143-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,0,TBODY,4,TR,4,TD,1,P,0,A",
+            "selector": "tr > td > p > a.mailto",
+            "boundingRect": {
+              "top": 852,
+              "bottom": 870,
+              "left": 1027,
+              "right": 1175,
+              "width": 148,
+              "height": 18
+            },
+            "snippet": "<a href=\"mailto:clint.janes@uspto.gov\" rel=\"noreferrer\" class=\"mailto\" data-extlink=\"\">",
+            "nodeLabel": "clint.janes@uspto.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-247-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,0,TBODY,4,TR",
+                  "selector": "div.clearfix > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 796,
+                    "bottom": 927,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 131
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Clint Janes \n\n\t\n\nActing Reasonable Accommodation Program Manager\n\n\t\n\nUSPTO\n\n\t\n\n…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-232-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 2156,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2160
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-144-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,0,TBODY,5,TR,4,TD,0,A",
+            "selector": "tbody > tr > td > a.mailto",
+            "boundingRect": {
+              "top": 944,
+              "bottom": 962,
+              "left": 1027,
+              "right": 1187,
+              "width": 160,
+              "height": 18
+            },
+            "snippet": "<a href=\"mailto:naveen.paul@uspto.gov\" rel=\"noreferrer\" class=\"mailto\" data-extlink=\"\">",
+            "nodeLabel": "naveen.paul@uspto.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-248-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,0,TBODY,5,TR",
+                  "selector": "div.clearfix > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 927,
+                    "bottom": 979,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 52
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Naveen Paul \tInformal Complaints/RA Program Manager       \tUSPTO\t571-270-5395  …"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-232-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 2156,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2160
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-145-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,0,TBODY,6,TR,4,TD,0,P,0,A",
+            "selector": "tr > td > p > a.mailto",
+            "boundingRect": {
+              "top": 1010,
+              "bottom": 1028,
+              "left": 1027,
+              "right": 1171,
+              "width": 144,
+              "height": 18
+            },
+            "snippet": "<a href=\"mailto:OHCS.RAC@noaa.gov\" rel=\"noreferrer\" class=\"mailto\" data-extlink=\"\">",
+            "nodeLabel": "OHCS.RAC@noaa.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-249-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,0,TBODY,6,TR",
+                  "selector": "div.clearfix > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 979,
+                    "bottom": 1060,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 81
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Debbie Ferrara\n\n\t\n\nReasonable Accommodation Coordinator\n\n\t\n\nNOAA\n\n\t\n\n816-426-78…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-232-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 2156,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2160
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-146-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,0,TBODY,7,TR,4,TD,0,P,0,A",
+            "selector": "tr > td > p > a.mailto",
+            "boundingRect": {
+              "top": 1091,
+              "bottom": 1109,
+              "left": 1027,
+              "right": 1174,
+              "width": 147,
+              "height": 18
+            },
+            "snippet": "<a href=\"mailto:%20spalmer@oig.doc.gov\" rel=\"noreferrer\" class=\"mailto\" data-extlink=\"\">",
+            "nodeLabel": "spalmer@oig.doc.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-250-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,0,TBODY,7,TR",
+                  "selector": "div.clearfix > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 1060,
+                    "bottom": 1141,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 81
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Sherrie Palmer\n\n\t\n\nReasonable Accommodation Coordinator\n\n\t\n\nOIG\n\n\t\n\n202-482-518…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-232-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 2156,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2160
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-147-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,0,TBODY,8,TR,4,TD,0,A",
+            "selector": "tbody > tr > td > a.mailto",
+            "boundingRect": {
+              "top": 1168,
+              "bottom": 1186,
+              "left": 1027,
+              "right": 1156,
+              "width": 129,
+              "height": 18
+            },
+            "snippet": "<a href=\"mailto:OCR.RAC@doc.gov\" rel=\"noreferrer\" class=\"mailto\" data-extlink=\"\">",
+            "nodeLabel": "OCR.RAC@doc.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-251-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,0,TBODY,8,TR",
+                  "selector": "div.clearfix > table > tbody > tr",
+                  "boundingRect": {
+                    "top": 1141,
+                    "bottom": 1215,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 74
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Monique Dismuke \tDepartment Disability/Reasonable Accommodation Program Manager…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-232-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 2156,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2160
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 6
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-252-H4",
+            "path": "1,HTML,1,BODY,1,DIV,4,FOOTER,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,SECTION,0,H4",
+            "selector": "div.grid-row > div.mobile-lg:grid-col-6 > section.usa-footer__primary-content > h4.usa-footer__primary-link",
+            "boundingRect": {
+              "top": 1491,
+              "bottom": 1510,
+              "left": 171,
+              "right": 485,
+              "width": 314,
+              "height": 20
+            },
+            "snippet": "<h4 class=\"usa-footer__primary-link\">",
+            "nodeLabel": "Explore",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

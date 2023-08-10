@@ -1,0 +1,1104 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-278-TD",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,LO,5,DIV,0,DIV,0,TABLE,0,TBODY,0,TR,0,TD",
+            "selector": "table.release-dates > tbody > tr > td.label",
+            "boundingRect": {
+              "top": 1219,
+              "bottom": 1237,
+              "left": 17,
+              "right": 93,
+              "width": 76,
+              "height": 17
+            },
+            "snippet": "<td class=\"label align-left\">",
+            "nodeLabel": "Current Release",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3 (foreground color: #28a0cb, background color: #ffffff, font size: 8.6pt (11.5181px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-279-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.doc-site",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 11355,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 11355
+                  },
+                  "snippet": "<body class=\"doc-site doc-frontpage doc-node path-data-and-reports\">",
+                  "nodeLabel": "body.doc-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-280-TD",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,LO,5,DIV,0,DIV,0,TABLE,0,TBODY,0,TR,0,TD",
+            "selector": "table.release-dates > tbody > tr > td.label",
+            "boundingRect": {
+              "top": 2127,
+              "bottom": 2144,
+              "left": 17,
+              "right": 93,
+              "width": 76,
+              "height": 17
+            },
+            "snippet": "<td class=\"label align-left\">",
+            "nodeLabel": "Current Release",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3 (foreground color: #28a0cb, background color: #ffffff, font size: 8.6pt (11.5181px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-279-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.doc-site",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 11355,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 11355
+                  },
+                  "snippet": "<body class=\"doc-site doc-frontpage doc-node path-data-and-reports\">",
+                  "nodeLabel": "body.doc-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-281-TD",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,LO,5,DIV,0,DIV,0,TABLE,0,TBODY,0,TR,0,TD",
+            "selector": "table.release-dates > tbody > tr > td.label",
+            "boundingRect": {
+              "top": 2588,
+              "bottom": 2605,
+              "left": 17,
+              "right": 93,
+              "width": 76,
+              "height": 17
+            },
+            "snippet": "<td class=\"label align-left\">",
+            "nodeLabel": "Current Release",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3 (foreground color: #28a0cb, background color: #ffffff, font size: 8.6pt (11.5181px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-279-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.doc-site",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 11355,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 11355
+                  },
+                  "snippet": "<body class=\"doc-site doc-frontpage doc-node path-data-and-reports\">",
+                  "nodeLabel": "body.doc-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-282-TD",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,LO,5,DIV,0,DIV,0,TABLE,0,TBODY,0,TR,0,TD",
+            "selector": "table.release-dates > tbody > tr > td.label",
+            "boundingRect": {
+              "top": 3023,
+              "bottom": 3040,
+              "left": 17,
+              "right": 93,
+              "width": 76,
+              "height": 17
+            },
+            "snippet": "<td class=\"label align-left\">",
+            "nodeLabel": "Current Release",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3 (foreground color: #28a0cb, background color: #ffffff, font size: 8.6pt (11.5181px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-279-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.doc-site",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 11355,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 11355
+                  },
+                  "snippet": "<body class=\"doc-site doc-frontpage doc-node path-data-and-reports\">",
+                  "nodeLabel": "body.doc-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-283-TD",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,LO,5,DIV,0,DIV,0,TABLE,0,TBODY,0,TR,0,TD",
+            "selector": "table.release-dates > tbody > tr > td.label",
+            "boundingRect": {
+              "top": 3433,
+              "bottom": 3451,
+              "left": 17,
+              "right": 93,
+              "width": 76,
+              "height": 17
+            },
+            "snippet": "<td class=\"label align-left\">",
+            "nodeLabel": "Current Release",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3 (foreground color: #28a0cb, background color: #ffffff, font size: 8.6pt (11.5181px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-279-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.doc-site",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 11355,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 11355
+                  },
+                  "snippet": "<body class=\"doc-site doc-frontpage doc-node path-data-and-reports\">",
+                  "nodeLabel": "body.doc-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-284-TD",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,3,DIV,0,LO,5,DIV,0,DIV,0,TABLE,0,TBODY,0,TR,0,TD",
+            "selector": "table.release-dates > tbody > tr > td.label",
+            "boundingRect": {
+              "top": 3923,
+              "bottom": 3940,
+              "left": 17,
+              "right": 93,
+              "width": 76,
+              "height": 17
+            },
+            "snippet": "<td class=\"label align-left\">",
+            "nodeLabel": "Current Release",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3 (foreground color: #28a0cb, background color: #ffffff, font size: 8.6pt (11.5181px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-279-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.doc-site",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 11355,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 11355
+                  },
+                  "snippet": "<body class=\"doc-site doc-frontpage doc-node path-data-and-reports\">",
+                  "nodeLabel": "body.doc-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-285-TD",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,4,DIV,0,LO,5,DIV,0,DIV,0,TABLE,0,TBODY,0,TR,0,TD",
+            "selector": "table.release-dates > tbody > tr > td.label",
+            "boundingRect": {
+              "top": 4387,
+              "bottom": 4404,
+              "left": 17,
+              "right": 93,
+              "width": 76,
+              "height": 17
+            },
+            "snippet": "<td class=\"label align-left\">",
+            "nodeLabel": "Current Release",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3 (foreground color: #28a0cb, background color: #ffffff, font size: 8.6pt (11.5181px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-279-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.doc-site",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 11355,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 11355
+                  },
+                  "snippet": "<body class=\"doc-site doc-frontpage doc-node path-data-and-reports\">",
+                  "nodeLabel": "body.doc-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-286-TD",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,5,DIV,0,LO,5,DIV,0,DIV,0,TABLE,0,TBODY,0,TR,0,TD",
+            "selector": "table.release-dates > tbody > tr > td.label",
+            "boundingRect": {
+              "top": 4775,
+              "bottom": 4792,
+              "left": 17,
+              "right": 93,
+              "width": 76,
+              "height": 17
+            },
+            "snippet": "<td class=\"label align-left\">",
+            "nodeLabel": "Current Release",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3 (foreground color: #28a0cb, background color: #ffffff, font size: 8.6pt (11.5181px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-279-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.doc-site",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 11355,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 11355
+                  },
+                  "snippet": "<body class=\"doc-site doc-frontpage doc-node path-data-and-reports\">",
+                  "nodeLabel": "body.doc-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-287-TD",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,6,DIV,0,LO,5,DIV,0,DIV,0,TABLE,0,TBODY,0,TR,0,TD",
+            "selector": "table.release-dates > tbody > tr > td.label",
+            "boundingRect": {
+              "top": 5163,
+              "bottom": 5181,
+              "left": 17,
+              "right": 93,
+              "width": 76,
+              "height": 17
+            },
+            "snippet": "<td class=\"label align-left\">",
+            "nodeLabel": "Current Release",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3 (foreground color: #28a0cb, background color: #ffffff, font size: 8.6pt (11.5181px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-279-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.doc-site",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 11355,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 11355
+                  },
+                  "snippet": "<body class=\"doc-site doc-frontpage doc-node path-data-and-reports\">",
+                  "nodeLabel": "body.doc-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-288-TD",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,7,DIV,0,LO,5,DIV,0,DIV,0,TABLE,0,TBODY,0,TR,0,TD",
+            "selector": "table.release-dates > tbody > tr > td.label",
+            "boundingRect": {
+              "top": 5577,
+              "bottom": 5594,
+              "left": 17,
+              "right": 93,
+              "width": 76,
+              "height": 17
+            },
+            "snippet": "<td class=\"label align-left\">",
+            "nodeLabel": "Current Release",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3 (foreground color: #28a0cb, background color: #ffffff, font size: 8.6pt (11.5181px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-279-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.doc-site",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 11355,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 11355
+                  },
+                  "snippet": "<body class=\"doc-site doc-frontpage doc-node path-data-and-reports\">",
+                  "nodeLabel": "body.doc-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-289-TD",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,8,DIV,0,LO,5,DIV,0,DIV,0,TABLE,0,TBODY,0,TR,0,TD",
+            "selector": "table.release-dates > tbody > tr > td.label",
+            "boundingRect": {
+              "top": 5987,
+              "bottom": 6005,
+              "left": 17,
+              "right": 93,
+              "width": 76,
+              "height": 17
+            },
+            "snippet": "<td class=\"label align-left\">",
+            "nodeLabel": "Current Release",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3 (foreground color: #28a0cb, background color: #ffffff, font size: 8.6pt (11.5181px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-279-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.doc-site",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 11355,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 11355
+                  },
+                  "snippet": "<body class=\"doc-site doc-frontpage doc-node path-data-and-reports\">",
+                  "nodeLabel": "body.doc-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-290-TD",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,9,DIV,0,LO,5,DIV,0,DIV,0,TABLE,0,TBODY,0,TR,0,TD",
+            "selector": "table.release-dates > tbody > tr > td.label",
+            "boundingRect": {
+              "top": 6351,
+              "bottom": 6368,
+              "left": 17,
+              "right": 93,
+              "width": 76,
+              "height": 17
+            },
+            "snippet": "<td class=\"label align-left\">",
+            "nodeLabel": "Current Release",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3 (foreground color: #28a0cb, background color: #ffffff, font size: 8.6pt (11.5181px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-279-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.doc-site",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 11355,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 11355
+                  },
+                  "snippet": "<body class=\"doc-site doc-frontpage doc-node path-data-and-reports\">",
+                  "nodeLabel": "body.doc-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-291-TD",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,10,DIV,0,LO,5,DIV,0,DIV,0,TABLE,0,TBODY,0,TR,0,TD",
+            "selector": "table.release-dates > tbody > tr > td.label",
+            "boundingRect": {
+              "top": 6764,
+              "bottom": 6781,
+              "left": 17,
+              "right": 93,
+              "width": 76,
+              "height": 17
+            },
+            "snippet": "<td class=\"label align-left\">",
+            "nodeLabel": "Current Release",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3 (foreground color: #28a0cb, background color: #ffffff, font size: 8.6pt (11.5181px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-279-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.doc-site",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 11355,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 11355
+                  },
+                  "snippet": "<body class=\"doc-site doc-frontpage doc-node path-data-and-reports\">",
+                  "nodeLabel": "body.doc-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-292-TD",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,11,DIV,0,LO,5,DIV,0,DIV,0,TABLE,0,TBODY,0,TR,0,TD",
+            "selector": "table.release-dates > tbody > tr > td.label",
+            "boundingRect": {
+              "top": 7178,
+              "bottom": 7195,
+              "left": 17,
+              "right": 93,
+              "width": 76,
+              "height": 17
+            },
+            "snippet": "<td class=\"label align-left\">",
+            "nodeLabel": "Current Release",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3 (foreground color: #28a0cb, background color: #ffffff, font size: 8.6pt (11.5181px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-279-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.doc-site",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 11355,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 11355
+                  },
+                  "snippet": "<body class=\"doc-site doc-frontpage doc-node path-data-and-reports\">",
+                  "nodeLabel": "body.doc-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-293-TD",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,12,DIV,0,LO,5,DIV,0,DIV,0,TABLE,0,TBODY,0,TR,0,TD",
+            "selector": "table.release-dates > tbody > tr > td.label",
+            "boundingRect": {
+              "top": 7638,
+              "bottom": 7656,
+              "left": 17,
+              "right": 93,
+              "width": 76,
+              "height": 17
+            },
+            "snippet": "<td class=\"label align-left\">",
+            "nodeLabel": "Current Release",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3 (foreground color: #28a0cb, background color: #ffffff, font size: 8.6pt (11.5181px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-279-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.doc-site",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 11355,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 11355
+                  },
+                  "snippet": "<body class=\"doc-site doc-frontpage doc-node path-data-and-reports\">",
+                  "nodeLabel": "body.doc-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-294-TD",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,13,DIV,0,LO,5,DIV,0,DIV,0,TABLE,0,TBODY,0,TR,0,TD",
+            "selector": "table.release-dates > tbody > tr > td.label",
+            "boundingRect": {
+              "top": 8049,
+              "bottom": 8066,
+              "left": 17,
+              "right": 93,
+              "width": 76,
+              "height": 17
+            },
+            "snippet": "<td class=\"label align-left\">",
+            "nodeLabel": "Current Release",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3 (foreground color: #28a0cb, background color: #ffffff, font size: 8.6pt (11.5181px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-279-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.doc-site",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 11355,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 11355
+                  },
+                  "snippet": "<body class=\"doc-site doc-frontpage doc-node path-data-and-reports\">",
+                  "nodeLabel": "body.doc-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-295-TD",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,14,DIV,0,LO,5,DIV,0,DIV,0,TABLE,0,TBODY,0,TR,0,TD",
+            "selector": "table.release-dates > tbody > tr > td.label",
+            "boundingRect": {
+              "top": 8412,
+              "bottom": 8429,
+              "left": 17,
+              "right": 93,
+              "width": 76,
+              "height": 17
+            },
+            "snippet": "<td class=\"label align-left\">",
+            "nodeLabel": "Current Release",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3 (foreground color: #28a0cb, background color: #ffffff, font size: 8.6pt (11.5181px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-279-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.doc-site",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 11355,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 11355
+                  },
+                  "snippet": "<body class=\"doc-site doc-frontpage doc-node path-data-and-reports\">",
+                  "nodeLabel": "body.doc-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-296-TD",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,15,DIV,0,LO,5,DIV,0,DIV,0,TABLE,0,TBODY,0,TR,0,TD",
+            "selector": "table.release-dates > tbody > tr > td.label",
+            "boundingRect": {
+              "top": 8876,
+              "bottom": 8893,
+              "left": 17,
+              "right": 93,
+              "width": 76,
+              "height": 17
+            },
+            "snippet": "<td class=\"label align-left\">",
+            "nodeLabel": "Current Release",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3 (foreground color: #28a0cb, background color: #ffffff, font size: 8.6pt (11.5181px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-279-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.doc-site",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 11355,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 11355
+                  },
+                  "snippet": "<body class=\"doc-site doc-frontpage doc-node path-data-and-reports\">",
+                  "nodeLabel": "body.doc-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-297-TD",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,16,DIV,0,LO,5,DIV,0,DIV,0,TABLE,0,TBODY,0,TR,0,TD",
+            "selector": "table.release-dates > tbody > tr > td.label",
+            "boundingRect": {
+              "top": 9290,
+              "bottom": 9307,
+              "left": 17,
+              "right": 93,
+              "width": 76,
+              "height": 17
+            },
+            "snippet": "<td class=\"label align-left\">",
+            "nodeLabel": "Current Release",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3 (foreground color: #28a0cb, background color: #ffffff, font size: 8.6pt (11.5181px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-279-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.doc-site",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 11355,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 11355
+                  },
+                  "snippet": "<body class=\"doc-site doc-frontpage doc-node path-data-and-reports\">",
+                  "nodeLabel": "body.doc-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-298-TD",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,17,DIV,0,LO,5,DIV,0,DIV,0,TABLE,0,TBODY,0,TR,0,TD",
+            "selector": "table.release-dates > tbody > tr > td.label",
+            "boundingRect": {
+              "top": 9754,
+              "bottom": 9771,
+              "left": 17,
+              "right": 93,
+              "width": 76,
+              "height": 17
+            },
+            "snippet": "<td class=\"label align-left\">",
+            "nodeLabel": "Current Release",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3 (foreground color: #28a0cb, background color: #ffffff, font size: 8.6pt (11.5181px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-279-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.doc-site",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 11355,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 11355
+                  },
+                  "snippet": "<body class=\"doc-site doc-frontpage doc-node path-data-and-reports\">",
+                  "nodeLabel": "body.doc-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-299-BUTTON",
+            "path": "1,HTML,1,BODY,11,DIV,2,DIV,0,DIV,1,DIV,4,DIV,0,BUTTON",
+            "selector": "div.prefix-overlay-inner > div#prefix-overlay-step1 > div.prefix-overlay-button-panel > button#prefix-dismissButton",
+            "boundingRect": {
+              "top": 241,
+              "bottom": 259,
+              "left": 115,
+              "right": 186,
+              "width": 71,
+              "height": 18
+            },
+            "snippet": "<button class=\"prefix-overlay-action-dismiss\" id=\"prefix-dismissButton\">",
+            "nodeLabel": "No Thanks",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.16 (foreground color: #3276b1, background color: #e7f0f5, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-300-DIV",
+                  "path": "1,HTML,1,BODY,11,DIV,2,DIV",
+                  "selector": "body.doc-site > div#scopedByScopedPolyfill_1 > div#prefix-overlay-outer",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 274,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 274
+                  },
+                  "snippet": "<div id=\"prefix-overlay-outer\" tabindex=\"0\" role=\"dialog\" aria-describedby=\"prefix-overlay-step1\">",
+                  "nodeLabel": "Close subscription dialog\n\nInterested in regular updates?\n\nEnter your email add…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-301-BUTTON",
+            "path": "1,HTML,1,BODY,11,DIV,2,DIV,0,DIV,1,DIV,4,DIV,1,BUTTON",
+            "selector": "div.prefix-overlay-inner > div#prefix-overlay-step1 > div.prefix-overlay-button-panel > button#prefix-laterButton",
+            "boundingRect": {
+              "top": 241,
+              "bottom": 259,
+              "left": 189,
+              "right": 297,
+              "width": 108,
+              "height": 18
+            },
+            "snippet": "<button class=\"prefix-overlay-action-later\" id=\"prefix-laterButton\">",
+            "nodeLabel": "Remind Me Later",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.16 (foreground color: #3276b1, background color: #e7f0f5, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-300-DIV",
+                  "path": "1,HTML,1,BODY,11,DIV,2,DIV",
+                  "selector": "body.doc-site > div#scopedByScopedPolyfill_1 > div#prefix-overlay-outer",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 274,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 274
+                  },
+                  "snippet": "<div id=\"prefix-overlay-outer\" tabindex=\"0\" role=\"dialog\" aria-describedby=\"prefix-overlay-step1\">",
+                  "nodeLabel": "Close subscription dialog\n\nInterested in regular updates?\n\nEnter your email add…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 22
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-302-H4",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,LO,0,H4",
+            "selector": "div.view-content > div.views-row > lo.item > h4",
+            "boundingRect": {
+              "top": 403,
+              "bottom": 491,
+              "left": 17,
+              "right": 395,
+              "width": 378,
+              "height": 87
+            },
+            "snippet": "<h4>",
+            "nodeLabel": "Gross Domestic Product, Gross Domestic Product (Third Estimate), Corporate Prof…",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-303-H4",
+            "path": "1,HTML,1,BODY,1,DIV,4,FOOTER,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,SECTION,0,H4",
+            "selector": "div.grid-row > div.mobile-lg:grid-col-6 > section.usa-footer__primary-content > h4.usa-footer__primary-link",
+            "boundingRect": {
+              "top": 10367,
+              "bottom": 10421,
+              "left": 17,
+              "right": 395,
+              "width": 378,
+              "height": 55
+            },
+            "snippet": "<h4 class=\"usa-footer__primary-link\">",
+            "nodeLabel": "Explore",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-166-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,LO,0,H4,0,A",
+            "selector": "div.views-row > lo.item > h4 > a",
+            "boundingRect": {
+              "top": 403,
+              "bottom": 424,
+              "left": 17,
+              "right": 17,
+              "width": 0,
+              "height": 21
+            },
+            "snippet": "<a href=\"\">",
+            "nodeLabel": "div.views-row > lo.item > h4 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-169-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,LO,0,H4,0,A",
+            "selector": "div.views-row > lo.item > h4 > a",
+            "boundingRect": {
+              "top": 1311,
+              "bottom": 1332,
+              "left": 17,
+              "right": 17,
+              "width": 0,
+              "height": 21
+            },
+            "snippet": "<a href=\"\">",
+            "nodeLabel": "div.views-row > lo.item > h4 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]
