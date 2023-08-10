@@ -1,0 +1,530 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-178-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,0,TBODY,1,TR,0,TD,0,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 769,
+              "bottom": 808,
+              "left": 27,
+              "right": 195,
+              "width": 168,
+              "height": 40
+            },
+            "snippet": "<a href=\"//www.commerce.gov/sites/default/files/2022-02/OCIO-IT-Policy-Development-…\">",
+            "nodeLabel": "OCIO IT Policy Development Policy",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-287-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,0,TBODY,1,TR",
+                  "selector": "div.clearfix > table.MsoTableGrid > tbody > tr",
+                  "boundingRect": {
+                    "top": 749,
+                    "bottom": 830,
+                    "left": 17,
+                    "right": 395,
+                    "width": 377,
+                    "height": 81
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "OCIO IT Policy Development Policy\n\n\t\n\nNovember 2021\n\n\t\n\nOCIO-OPG-21-0004"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-288-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.doc-site",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 2663,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 2663
+                  },
+                  "snippet": "<body class=\"doc-site doc-frontpage doc-node path-node page-node-type-page\">",
+                  "nodeLabel": "body.doc-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-179-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,0,TBODY,2,TR,0,TD,0,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 850,
+              "bottom": 889,
+              "left": 27,
+              "right": 188,
+              "width": 161,
+              "height": 40
+            },
+            "snippet": "<a href=\"//www.commerce.gov/sites/default/files/2022-02/Internet-Protocol-Version-6…\">",
+            "nodeLabel": "Internet Protocol Version 6 (IPv6) Policy",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-289-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,0,TBODY,2,TR",
+                  "selector": "div.clearfix > table.MsoTableGrid > tbody > tr",
+                  "boundingRect": {
+                    "top": 830,
+                    "bottom": 911,
+                    "left": 17,
+                    "right": 395,
+                    "width": 377,
+                    "height": 81
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Internet Protocol Version 6 (IPv6) Policy\n\n\t\n\nSeptember 2021\n\n\t\n\nOCIO-OET-21-00…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-288-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.doc-site",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 2663,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 2663
+                  },
+                  "snippet": "<body class=\"doc-site doc-frontpage doc-node path-node page-node-type-page\">",
+                  "nodeLabel": "body.doc-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-180-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,0,TBODY,3,TR,0,TD,0,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 931,
+              "bottom": 992,
+              "left": 27,
+              "right": 192,
+              "width": 165,
+              "height": 61
+            },
+            "snippet": "<a href=\"//www.commerce.gov/sites/default/files/2022-02/Identity-Credential-Access-…\">",
+            "nodeLabel": "Identity, Credential, and Access Management (ICAM) Policy",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-290-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,0,TBODY,3,TR",
+                  "selector": "div.clearfix > table.MsoTableGrid > tbody > tr",
+                  "boundingRect": {
+                    "top": 911,
+                    "bottom": 1049,
+                    "left": 17,
+                    "right": 395,
+                    "width": 377,
+                    "height": 138
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Identity, Credential, and Access Management (ICAM) Policy\n\n \n\n\t\n\nMay 2021\n\n\t\n\n "
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-288-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.doc-site",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 2663,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 2663
+                  },
+                  "snippet": "<body class=\"doc-site doc-frontpage doc-node path-node page-node-type-page\">",
+                  "nodeLabel": "body.doc-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-181-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,0,TBODY,4,TR,0,TD,0,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 1069,
+              "bottom": 1130,
+              "left": 27,
+              "right": 168,
+              "width": 141,
+              "height": 61
+            },
+            "snippet": "<a href=\"//www.commerce.gov/sites/default/files/2022-02/IT-Product-Maintenance-Supp…\">",
+            "nodeLabel": "IT Product Maintenance Support and End of Life (EOL) Cycle Mgt",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-291-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,0,TBODY,4,TR",
+                  "selector": "div.clearfix > table.MsoTableGrid > tbody > tr",
+                  "boundingRect": {
+                    "top": 1049,
+                    "bottom": 1152,
+                    "left": 17,
+                    "right": 395,
+                    "width": 377,
+                    "height": 103
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "IT Product Maintenance Support and End of Life (EOL) Cycle Mgt\n\n\t\n\nJuly 2020\n\n\t…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-288-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.doc-site",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 2663,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 2663
+                  },
+                  "snippet": "<body class=\"doc-site doc-frontpage doc-node path-node page-node-type-page\">",
+                  "nodeLabel": "body.doc-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-182-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,0,TBODY,5,TR,0,TD,0,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 1172,
+              "bottom": 1211,
+              "left": 27,
+              "right": 167,
+              "width": 140,
+              "height": 40
+            },
+            "snippet": "<a href=\"//www.commerce.gov/sites/default/files/2022-02/Controlled-Unclassified-Inf…\">",
+            "nodeLabel": "Controlled Unclassified Information (CUI) Policy",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-292-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,0,TBODY,5,TR",
+                  "selector": "div.clearfix > table.MsoTableGrid > tbody > tr",
+                  "boundingRect": {
+                    "top": 1152,
+                    "bottom": 1233,
+                    "left": 17,
+                    "right": 395,
+                    "width": 377,
+                    "height": 81
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Controlled Unclassified Information (CUI) Policy\n\n\t\n\nAugust 2019\n\n\t\n\nOPBM-NP-18…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-288-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.doc-site",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 2663,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 2663
+                  },
+                  "snippet": "<body class=\"doc-site doc-frontpage doc-node path-node page-node-type-page\">",
+                  "nodeLabel": "body.doc-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-183-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,0,TBODY,6,TR,0,TD,0,P,0,A",
+            "selector": "tr > td > p > a",
+            "boundingRect": {
+              "top": 1253,
+              "bottom": 1292,
+              "left": 27,
+              "right": 198,
+              "width": 171,
+              "height": 40
+            },
+            "snippet": "<a href=\"//www.commerce.gov/sites/default/files/2022-02/Enterprise-Software-License…\">",
+            "nodeLabel": "Enterprise Software License Management (E/SLM) Policy",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-293-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,0,TBODY,6,TR",
+                  "selector": "div.clearfix > table.MsoTableGrid > tbody > tr",
+                  "boundingRect": {
+                    "top": 1233,
+                    "bottom": 1314,
+                    "left": 17,
+                    "right": 395,
+                    "width": 377,
+                    "height": 81
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Enterprise Software License Management (E/SLM) Policy\n\n\t\n\nMarch 2018\n\n\t\n\nSPBM-O…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-288-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.doc-site",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 2663,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 2663
+                  },
+                  "snippet": "<body class=\"doc-site doc-frontpage doc-node path-node page-node-type-page\">",
+                  "nodeLabel": "body.doc-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-294-BUTTON",
+            "path": "1,HTML,1,BODY,13,DIV,2,DIV,0,DIV,1,DIV,4,DIV,0,BUTTON",
+            "selector": "div.prefix-overlay-inner > div#prefix-overlay-step1 > div.prefix-overlay-button-panel > button#prefix-dismissButton",
+            "boundingRect": {
+              "top": 241,
+              "bottom": 259,
+              "left": 115,
+              "right": 187,
+              "width": 72,
+              "height": 18
+            },
+            "snippet": "<button class=\"prefix-overlay-action-dismiss\" id=\"prefix-dismissButton\">",
+            "nodeLabel": "No Thanks",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.16 (foreground color: #3276b1, background color: #e7f0f5, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-295-DIV",
+                  "path": "1,HTML,1,BODY,13,DIV,2,DIV",
+                  "selector": "body.doc-site > div#scopedByScopedPolyfill_1 > div#prefix-overlay-outer",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 274,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 274
+                  },
+                  "snippet": "<div id=\"prefix-overlay-outer\" tabindex=\"0\" role=\"dialog\" aria-describedby=\"prefix-overlay-step1\">",
+                  "nodeLabel": "Close subscription dialog\n\nInterested in regular updates?\n\nEnter your email add…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-296-BUTTON",
+            "path": "1,HTML,1,BODY,13,DIV,2,DIV,0,DIV,1,DIV,4,DIV,1,BUTTON",
+            "selector": "div.prefix-overlay-inner > div#prefix-overlay-step1 > div.prefix-overlay-button-panel > button#prefix-laterButton",
+            "boundingRect": {
+              "top": 241,
+              "bottom": 259,
+              "left": 190,
+              "right": 297,
+              "width": 107,
+              "height": 18
+            },
+            "snippet": "<button class=\"prefix-overlay-action-later\" id=\"prefix-laterButton\">",
+            "nodeLabel": "Remind Me Later",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.16 (foreground color: #3276b1, background color: #e7f0f5, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-295-DIV",
+                  "path": "1,HTML,1,BODY,13,DIV,2,DIV",
+                  "selector": "body.doc-site > div#scopedByScopedPolyfill_1 > div#prefix-overlay-outer",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 274,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 274
+                  },
+                  "snippet": "<div id=\"prefix-overlay-outer\" tabindex=\"0\" role=\"dialog\" aria-describedby=\"prefix-overlay-step1\">",
+                  "nodeLabel": "Close subscription dialog\n\nInterested in regular updates?\n\nEnter your email add…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 8
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-297-H4",
+            "path": "1,HTML,1,BODY,1,DIV,4,FOOTER,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,SECTION,0,H4",
+            "selector": "div.grid-row > div.mobile-lg:grid-col-6 > section.usa-footer__primary-content > h4.usa-footer__primary-link",
+            "boundingRect": {
+              "top": 1675,
+              "bottom": 1730,
+              "left": 17,
+              "right": 395,
+              "width": 378,
+              "height": 55
+            },
+            "snippet": "<h4 class=\"usa-footer__primary-link\">",
+            "nodeLabel": "Explore",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
