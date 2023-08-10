@@ -1,0 +1,1046 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-132-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,10,TABLE,1,TBODY,0,TR,2,TD,1,SPAN,0,P,0,A",
+            "selector": "td > span.tablesaw-cell-content > p > a.mailto",
+            "boundingRect": {
+              "top": 1591,
+              "bottom": 1609,
+              "left": 1070,
+              "right": 1177,
+              "width": 107,
+              "height": 18
+            },
+            "snippet": "<a href=\"mailto:lbeat@doc.gov\" rel=\"noreferrer\" class=\"mailto\" data-extlink=\"\">",
+            "nodeLabel": "lbeat@doc.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-252-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,10,TABLE,1,TBODY,0,TR",
+                  "selector": "div.clearfix > table#tablesaw-8644 > tbody > tr",
+                  "boundingRect": {
+                    "top": 1568,
+                    "bottom": 1669,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 102
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Director\n\nChief Diversity, Equity, and Inclusion Officer\n\n\t\n\nJerry Beat\n\nJunish…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-253-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 4009,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 4013
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-133-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,10,TABLE,1,TBODY,0,TR,2,TD,1,SPAN,1,P,0,A",
+            "selector": "td > span.tablesaw-cell-content > p > a.mailto",
+            "boundingRect": {
+              "top": 1627,
+              "bottom": 1645,
+              "left": 1070,
+              "right": 1181,
+              "width": 111,
+              "height": 18
+            },
+            "snippet": "<a href=\"mailto:jarora@doc.gov\" rel=\"noreferrer\" class=\"mailto\" data-extlink=\"\">",
+            "nodeLabel": "jarora@doc.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-252-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,10,TABLE,1,TBODY,0,TR",
+                  "selector": "div.clearfix > table#tablesaw-8644 > tbody > tr",
+                  "boundingRect": {
+                    "top": 1568,
+                    "bottom": 1669,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 102
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Director\n\nChief Diversity, Equity, and Inclusion Officer\n\n\t\n\nJerry Beat\n\nJunish…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-253-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 4009,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 4013
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-136-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,10,TABLE,1,TBODY,3,TR,2,TD,1,SPAN,0,P,0,A",
+            "selector": "td > span.tablesaw-cell-content > p > a.mailto",
+            "boundingRect": {
+              "top": 1896,
+              "bottom": 1914,
+              "left": 1070,
+              "right": 1198,
+              "width": 128,
+              "height": 18
+            },
+            "snippet": "<a href=\"mailto:szanelot@doc.gov\" rel=\"noreferrer\" class=\"mailto\" data-extlink=\"\">",
+            "nodeLabel": "szanelot@doc.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-254-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,10,TABLE,1,TBODY,3,TR",
+                  "selector": "div.clearfix > table#tablesaw-8644 > tbody > tr",
+                  "boundingRect": {
+                    "top": 1873,
+                    "bottom": 1939,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 66
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Chief Investigator\n\n\t\n\nSandra Zanelotti\n\n\t\n\nszanelot@doc.gov"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-253-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 4009,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 4013
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-137-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,10,TABLE,1,TBODY,4,TR,2,TD,1,SPAN,0,A",
+            "selector": "tr > td > span.tablesaw-cell-content > a.mailto",
+            "boundingRect": {
+              "top": 1947,
+              "bottom": 1965,
+              "left": 1070,
+              "right": 1190,
+              "width": 120,
+              "height": 18
+            },
+            "snippet": "<a href=\"mailto:scarter@doc.gov\" rel=\"noreferrer\" class=\"mailto\" data-extlink=\"\">",
+            "nodeLabel": "scarter@doc.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-255-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,10,TABLE,1,TBODY,4,TR",
+                  "selector": "div.clearfix > table#tablesaw-8644 > tbody > tr",
+                  "boundingRect": {
+                    "top": 1939,
+                    "bottom": 1976,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 37
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Director, Policy & Evaluation Division\tStacy Carter\tscarter@doc.gov"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-253-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 4009,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 4013
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-138-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,10,TABLE,1,TBODY,5,TR,2,TD,1,SPAN,0,A",
+            "selector": "tr > td > span.tablesaw-cell-content > a.mailto",
+            "boundingRect": {
+              "top": 1995,
+              "bottom": 2013,
+              "left": 1070,
+              "right": 1196,
+              "width": 126,
+              "height": 18
+            },
+            "snippet": "<a href=\"mailto:BWorthy@doc.gov\" rel=\"noreferrer\" class=\"mailto\" data-extlink=\"\">",
+            "nodeLabel": "bworthy@doc.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-256-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,10,TABLE,1,TBODY,5,TR",
+                  "selector": "div.clearfix > table#tablesaw-8644 > tbody > tr",
+                  "boundingRect": {
+                    "top": 1976,
+                    "bottom": 2034,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 59
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Director, Client Services & Resolution Division and EEO Officer (all bureaus ex…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-253-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 4009,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 4013
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-139-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,10,TABLE,1,TBODY,6,TR,2,TD,1,SPAN,0,A",
+            "selector": "tr > td > span.tablesaw-cell-content > a.mailto",
+            "boundingRect": {
+              "top": 2054,
+              "bottom": 2072,
+              "left": 1070,
+              "right": 1183,
+              "width": 113,
+              "height": 18
+            },
+            "snippet": "<a href=\"mailto:rmack@doc.gov\" rel=\"noreferrer\" class=\"mailto\" data-extlink=\"\">",
+            "nodeLabel": "rmack@doc.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-257-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,10,TABLE,1,TBODY,6,TR",
+                  "selector": "div.clearfix > table#tablesaw-8644 > tbody > tr",
+                  "boundingRect": {
+                    "top": 2034,
+                    "bottom": 2093,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 59
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Senior Management/Budget Analyst (Budget Formulation/Execution, Procurement and…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-253-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 4009,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 4013
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-140-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,10,TABLE,1,TBODY,7,TR,2,TD,1,SPAN,0,A",
+            "selector": "tr > td > span.tablesaw-cell-content > a.mailto",
+            "boundingRect": {
+              "top": 2101,
+              "bottom": 2119,
+              "left": 1070,
+              "right": 1174,
+              "width": 104,
+              "height": 18
+            },
+            "snippet": "<a href=\"mailto:btoy@doc.gov\" rel=\"noreferrer\" class=\"mailto\" data-extlink=\"\">",
+            "nodeLabel": "btoy@doc.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-258-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,10,TABLE,1,TBODY,7,TR",
+                  "selector": "div.clearfix > table#tablesaw-8644 > tbody > tr",
+                  "boundingRect": {
+                    "top": 2093,
+                    "bottom": 2130,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 37
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Alternative Dispute Resolution (ADR) Manager\tBarbara Toy\tbtoy@doc.gov"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-253-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 4009,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 4013
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-141-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,10,TABLE,1,TBODY,8,TR,2,TD,1,SPAN,0,A",
+            "selector": "tr > td > span.tablesaw-cell-content > a.mailto",
+            "boundingRect": {
+              "top": 2171,
+              "bottom": 2189,
+              "left": 1070,
+              "right": 1179,
+              "width": 109,
+              "height": 18
+            },
+            "snippet": "<a href=\"mailto:lsoria@doc.gov\" rel=\"noreferrer\" class=\"mailto\" data-extlink=\"\">",
+            "nodeLabel": "lsoria@doc.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-259-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,10,TABLE,1,TBODY,8,TR",
+                  "selector": "div.clearfix > table#tablesaw-8644 > tbody > tr",
+                  "boundingRect": {
+                    "top": 2130,
+                    "bottom": 2231,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 102
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Senior Affirmative Employment Program Manager,  Hispanic Employment Program Man…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-253-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 4009,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 4013
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-143-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,10,TABLE,1,TBODY,10,TR,2,TD,1,SPAN,0,A",
+            "selector": "tr > td > span.tablesaw-cell-content > a.mailto",
+            "boundingRect": {
+              "top": 2298,
+              "bottom": 2316,
+              "left": 1070,
+              "right": 1183,
+              "width": 113,
+              "height": 18
+            },
+            "snippet": "<a href=\"mailto:lfacey@doc.gov\" rel=\"noreferrer\" class=\"mailto\" data-extlink=\"\">",
+            "nodeLabel": "lfacey@doc.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-260-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,10,TABLE,1,TBODY,10,TR",
+                  "selector": "div.clearfix > table#tablesaw-8644 > tbody > tr",
+                  "boundingRect": {
+                    "top": 2290,
+                    "bottom": 2327,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 37
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Data Analyst\tDr. Lester Facey\tlfacey@doc.gov"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-253-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 4009,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 4013
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-144-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,10,TABLE,1,TBODY,11,TR,2,TD,1,SPAN,0,A",
+            "selector": "tr > td > span.tablesaw-cell-content > a.mailto",
+            "boundingRect": {
+              "top": 2357,
+              "bottom": 2375,
+              "left": 1070,
+              "right": 1179,
+              "width": 109,
+              "height": 18
+            },
+            "snippet": "<a href=\"mailto:lsoria@doc.gov\" rel=\"noreferrer\" class=\"mailto\" data-extlink=\"\">",
+            "nodeLabel": "lsoria@doc.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-261-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,10,TABLE,1,TBODY,11,TR",
+                  "selector": "div.clearfix > table#tablesaw-8644 > tbody > tr",
+                  "boundingRect": {
+                    "top": 2327,
+                    "bottom": 2407,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 80
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Reasonable Accommodations Coordinator (OS, EDA, ITA, MBDA, BIS, NTIA), Asian Am…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-253-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 4009,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 4013
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-148-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,14,TABLE,2,TBODY,0,TR,1,TD,1,SPAN,0,A",
+            "selector": "tr > td > span.tablesaw-cell-content > a",
+            "boundingRect": {
+              "top": 2673,
+              "bottom": 2713,
+              "left": 1078,
+              "right": 1170,
+              "width": 92,
+              "height": 40
+            },
+            "snippet": "<a href=\"tel:1-202-482-0625\" rel=\"noreferrer\">",
+            "nodeLabel": "(202) 482-0625 - Voice",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-262-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,14,TABLE,2,TBODY,0,TR",
+                  "selector": "div.clearfix > table#tablesaw-8616 > tbody > tr",
+                  "boundingRect": {
+                    "top": 2664,
+                    "bottom": 2723,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 59
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Director's Office\t(202) 482-0625 - Voice"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-253-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 4009,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 4013
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-149-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,14,TABLE,2,TBODY,1,TR,1,TD,1,SPAN,0,A",
+            "selector": "tr > td > span.tablesaw-cell-content > a",
+            "boundingRect": {
+              "top": 2779,
+              "bottom": 2818,
+              "left": 1078,
+              "right": 1170,
+              "width": 92,
+              "height": 40
+            },
+            "snippet": "<a href=\"tel:1-202-482-4993\" rel=\"noreferrer\">",
+            "nodeLabel": "(202) 482-4993 - Voice",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-263-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,14,TABLE,2,TBODY,1,TR",
+                  "selector": "div.clearfix > table#tablesaw-8616 > tbody > tr",
+                  "boundingRect": {
+                    "top": 2723,
+                    "bottom": 2875,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 153
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Questions about:\nEEO Counseling\nMediation/Alternative Dispute Resolution\nEEO an…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-253-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 4009,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 4013
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-150-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,14,TABLE,2,TBODY,2,TR,1,TD,1,SPAN,0,A",
+            "selector": "tr > td > span.tablesaw-cell-content > a",
+            "boundingRect": {
+              "top": 2884,
+              "bottom": 2924,
+              "left": 1078,
+              "right": 1170,
+              "width": 92,
+              "height": 40
+            },
+            "snippet": "<a href=\"tel:1-202-482-0625\" rel=\"noreferrer\">",
+            "nodeLabel": "(202) 482-0625 - Voice",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-264-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,14,TABLE,2,TBODY,2,TR",
+                  "selector": "div.clearfix > table#tablesaw-8616 > tbody > tr",
+                  "boundingRect": {
+                    "top": 2875,
+                    "bottom": 2934,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 59
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Complaints about discrimination and accessibility in Commerce and Commerce-fund…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-253-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 4009,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 4013
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-151-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,14,TABLE,2,TBODY,3,TR,1,TD,1,SPAN,0,A",
+            "selector": "tr > td > span.tablesaw-cell-content > a",
+            "boundingRect": {
+              "top": 3000,
+              "bottom": 3018,
+              "left": 1078,
+              "right": 1163,
+              "width": 85,
+              "height": 18
+            },
+            "snippet": "<a href=\"tel:1-202-482-5691\" rel=\"noreferrer\">",
+            "nodeLabel": "(202) 482-5691",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-265-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,14,TABLE,2,TBODY,3,TR",
+                  "selector": "div.clearfix > table#tablesaw-8616 > tbody > tr",
+                  "boundingRect": {
+                    "top": 2934,
+                    "bottom": 3087,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 153
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Questions about:\nAffirmative Employment Program\nManagement Directive 715\nWorkfo…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-253-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 4009,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 4013
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-152-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,14,TABLE,2,TBODY,4,TR,1,TD,1,SPAN,0,A",
+            "selector": "tr > td > span.tablesaw-cell-content > a",
+            "boundingRect": {
+              "top": 3095,
+              "bottom": 3135,
+              "left": 1078,
+              "right": 1170,
+              "width": 92,
+              "height": 40
+            },
+            "snippet": "<a href=\"tel:1-202-482-4481\" rel=\"noreferrer\">",
+            "nodeLabel": "(202) 482-4481 - Voice",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-266-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,14,TABLE,2,TBODY,4,TR",
+                  "selector": "div.clearfix > table#tablesaw-8616 > tbody > tr",
+                  "boundingRect": {
+                    "top": 3087,
+                    "bottom": 3167,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 80
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Sign Language Interpreting Service **\t(202) 482-4481 - Voice\n(202) 888-7763 (VP)"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-253-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 4009,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 4013
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-153-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,14,TABLE,2,TBODY,4,TR,1,TD,1,SPAN,2,A",
+            "selector": "tr > td > span.tablesaw-cell-content > a",
+            "boundingRect": {
+              "top": 3138,
+              "bottom": 3156,
+              "left": 1078,
+              "right": 1189,
+              "width": 111,
+              "height": 18
+            },
+            "snippet": "<a href=\"tel:1-202-888-7763\" rel=\"noreferrer\">",
+            "nodeLabel": "(202) 888-7763 (VP)",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-266-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,14,TABLE,2,TBODY,4,TR",
+                  "selector": "div.clearfix > table#tablesaw-8616 > tbody > tr",
+                  "boundingRect": {
+                    "top": 3087,
+                    "bottom": 3167,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 80
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Sign Language Interpreting Service **\t(202) 482-4481 - Voice\n(202) 888-7763 (VP)"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-253-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 4009,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 4013
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 16
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-267-H4",
+            "path": "1,HTML,1,BODY,1,DIV,4,FOOTER,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,SECTION,0,H4",
+            "selector": "div.grid-row > div.mobile-lg:grid-col-6 > section.usa-footer__primary-content > h4.usa-footer__primary-link",
+            "boundingRect": {
+              "top": 3343,
+              "bottom": 3363,
+              "left": 171,
+              "right": 485,
+              "width": 314,
+              "height": 20
+            },
+            "snippet": "<h4 class=\"usa-footer__primary-link\">",
+            "nodeLabel": "Explore",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
