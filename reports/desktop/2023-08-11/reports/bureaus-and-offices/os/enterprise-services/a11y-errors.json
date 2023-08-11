@@ -1,0 +1,202 @@
+[
+  {
+    "id": "frame-title",
+    "title": "`<frame>` or `<iframe>` elements do not have a title",
+    "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more](https://web.dev/frame-title/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-278-IFRAME",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,0,DIV,0,DIV,20,P,0,IFRAME",
+            "selector": "div.content > div.clearfix > p > iframe",
+            "boundingRect": {
+              "top": 2401,
+              "bottom": 2716,
+              "left": 406,
+              "right": 966,
+              "width": 560,
+              "height": 315
+            },
+            "snippet": "<iframe height=\"315\" src=\"https://www.youtube.com/embed/P-IMqDgvUVk\" width=\"560\">",
+            "nodeLabel": "div.content > div.clearfix > p > iframe",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag241",
+          "wcag412",
+          "section508",
+          "section508.22.i"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-279-H4",
+            "path": "1,HTML,1,BODY,1,DIV,4,FOOTER,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,SECTION,0,H4",
+            "selector": "div.grid-row > div.mobile-lg:grid-col-6 > section.usa-footer__primary-content > h4.usa-footer__primary-link",
+            "boundingRect": {
+              "top": 3241,
+              "bottom": 3261,
+              "left": 171,
+              "right": 485,
+              "width": 314,
+              "height": 20
+            },
+            "snippet": "<h4 class=\"usa-footer__primary-link\">",
+            "nodeLabel": "Explore",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "label",
+    "title": "Form elements do not have associated labels",
+    "description": "Labels ensure that form controls are announced properly by assistive technologies, like screen readers. [Learn more](https://web.dev/label/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-273-INPUT",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,DIV,0,MAIN,1,NAV,0,DIV,0,FORM,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,UL,0,LI,0,INPUT",
+            "selector": "div#edit_b_chosen > ul.chosen-choices > li.search-field > input.chosen-search-input",
+            "boundingRect": {
+              "top": 2843,
+              "bottom": 2868,
+              "left": 412,
+              "right": 563,
+              "width": 151,
+              "height": 25
+            },
+            "snippet": "<input class=\"chosen-search-input default\" type=\"text\" autocomplete=\"off\" value=\"Choose some options\" style=\"width: 150.75px;\">",
+            "nodeLabel": "div#edit_b_chosen > ul.chosen-choices > li.search-field > input.chosen-search-input",
+            "explanation": "Fix any of the following:\n  Form element does not have an implicit (wrapped) <label>\n  Form element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-274-INPUT",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,DIV,0,MAIN,1,NAV,0,DIV,0,FORM,0,DIV,0,DIV,1,DIV,0,DIV,2,DIV,0,UL,0,LI,0,INPUT",
+            "selector": "div#edit_i_chosen > ul.chosen-choices > li.search-field > input.chosen-search-input",
+            "boundingRect": {
+              "top": 2843,
+              "bottom": 2868,
+              "left": 811,
+              "right": 962,
+              "width": 151,
+              "height": 25
+            },
+            "snippet": "<input class=\"chosen-search-input default\" type=\"text\" autocomplete=\"off\" value=\"Choose some options\" style=\"width: 150.75px;\">",
+            "nodeLabel": "div#edit_i_chosen > ul.chosen-choices > li.search-field > input.chosen-search-input",
+            "explanation": "Fix any of the following:\n  Form element does not have an implicit (wrapped) <label>\n  Form element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-275-INPUT",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,DIV,0,MAIN,1,NAV,0,DIV,0,FORM,0,DIV,1,DIV,0,DIV,0,DIV,2,DIV,0,UL,0,LI,0,INPUT",
+            "selector": "div#edit_t_chosen > ul.chosen-choices > li.search-field > input.chosen-search-input",
+            "boundingRect": {
+              "top": 2929,
+              "bottom": 2954,
+              "left": 412,
+              "right": 563,
+              "width": 151,
+              "height": 25
+            },
+            "snippet": "<input class=\"chosen-search-input default\" type=\"text\" autocomplete=\"off\" value=\"Choose some options\" style=\"width: 150.75px;\">",
+            "nodeLabel": "div#edit_t_chosen > ul.chosen-choices > li.search-field > input.chosen-search-input",
+            "explanation": "Fix any of the following:\n  Form element does not have an implicit (wrapped) <label>\n  Form element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.forms",
+          "wcag2a",
+          "wcag412",
+          "wcag131",
+          "section508",
+          "section508.22.n",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 3
+  }
+]
