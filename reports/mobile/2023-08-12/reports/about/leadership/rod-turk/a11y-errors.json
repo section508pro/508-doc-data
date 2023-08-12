@@ -1,0 +1,170 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-263-BUTTON",
+            "path": "1,HTML,1,BODY,12,DIV,2,DIV,0,DIV,1,DIV,4,DIV,0,BUTTON",
+            "selector": "div.prefix-overlay-inner > div#prefix-overlay-step1 > div.prefix-overlay-button-panel > button#prefix-dismissButton",
+            "boundingRect": {
+              "top": 241,
+              "bottom": 259,
+              "left": 115,
+              "right": 187,
+              "width": 72,
+              "height": 18
+            },
+            "snippet": "<button class=\"prefix-overlay-action-dismiss\" id=\"prefix-dismissButton\">",
+            "nodeLabel": "No Thanks",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.16 (foreground color: #3276b1, background color: #e7f0f5, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-264-DIV",
+                  "path": "1,HTML,1,BODY,12,DIV,2,DIV",
+                  "selector": "body.doc-site > div#scopedByScopedPolyfill_1 > div#prefix-overlay-outer",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 274,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 274
+                  },
+                  "snippet": "<div id=\"prefix-overlay-outer\" tabindex=\"0\" role=\"dialog\" aria-describedby=\"prefix-overlay-step1\">",
+                  "nodeLabel": "Close subscription dialog\n\nInterested in regular updates?\n\nEnter your email add…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-265-BUTTON",
+            "path": "1,HTML,1,BODY,12,DIV,2,DIV,0,DIV,1,DIV,4,DIV,1,BUTTON",
+            "selector": "div.prefix-overlay-inner > div#prefix-overlay-step1 > div.prefix-overlay-button-panel > button#prefix-laterButton",
+            "boundingRect": {
+              "top": 241,
+              "bottom": 259,
+              "left": 190,
+              "right": 297,
+              "width": 107,
+              "height": 18
+            },
+            "snippet": "<button class=\"prefix-overlay-action-later\" id=\"prefix-laterButton\">",
+            "nodeLabel": "Remind Me Later",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.16 (foreground color: #3276b1, background color: #e7f0f5, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-264-DIV",
+                  "path": "1,HTML,1,BODY,12,DIV,2,DIV",
+                  "selector": "body.doc-site > div#scopedByScopedPolyfill_1 > div#prefix-overlay-outer",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 274,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 274
+                  },
+                  "snippet": "<div id=\"prefix-overlay-outer\" tabindex=\"0\" role=\"dialog\" aria-describedby=\"prefix-overlay-step1\">",
+                  "nodeLabel": "Close subscription dialog\n\nInterested in regular updates?\n\nEnter your email add…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-266-H4",
+            "path": "1,HTML,1,BODY,1,DIV,4,FOOTER,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,SECTION,0,H4",
+            "selector": "div.grid-row > div.mobile-lg:grid-col-6 > section.usa-footer__primary-content > h4.usa-footer__primary-link",
+            "boundingRect": {
+              "top": 2395,
+              "bottom": 2450,
+              "left": 17,
+              "right": 395,
+              "width": 378,
+              "height": 55
+            },
+            "snippet": "<h4 class=\"usa-footer__primary-link\">",
+            "nodeLabel": "Explore",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
