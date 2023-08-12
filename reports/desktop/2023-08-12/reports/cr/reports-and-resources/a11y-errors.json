@@ -1,0 +1,1586 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-131-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,2,TBODY,0,TR,0,TD,1,SPAN,0,A",
+            "selector": "tr > td > span.tablesaw-cell-content > a",
+            "boundingRect": {
+              "top": 497,
+              "bottom": 515,
+              "left": 426,
+              "right": 563,
+              "width": 137,
+              "height": 18
+            },
+            "snippet": "<a href=\"//www.commerce.gov/sites/default/files/ocr/qfeeolaws.pdf\" target=\"_blank\" rel=\"noopener\">",
+            "nodeLabel": "Federal EEO Laws: pdf,",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-254-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,2,TBODY,0,TR",
+                  "selector": "div.clearfix > table#tablesaw-8551 > tbody > tr",
+                  "boundingRect": {
+                    "top": 488,
+                    "bottom": 546,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 59
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Federal EEO Laws: pdf,\nFederal EEO Laws:web page\tEEO Complaint Process: pdf"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-240-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 2126,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2130
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-132-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,2,TBODY,0,TR,0,TD,1,SPAN,2,A",
+            "selector": "tr > td > span.tablesaw-cell-content > a",
+            "boundingRect": {
+              "top": 518,
+              "bottom": 536,
+              "left": 426,
+              "right": 596,
+              "width": 170,
+              "height": 18
+            },
+            "snippet": "<a href=\"//www.commerce.gov/cr/reports-and-resources/eeo-laws-faq\" target=\"_blank\" rel=\"noopener\">",
+            "nodeLabel": "Federal EEO Laws:web page",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-254-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,2,TBODY,0,TR",
+                  "selector": "div.clearfix > table#tablesaw-8551 > tbody > tr",
+                  "boundingRect": {
+                    "top": 488,
+                    "bottom": 546,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 59
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Federal EEO Laws: pdf,\nFederal EEO Laws:web page\tEEO Complaint Process: pdf"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-240-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 2126,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2130
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-133-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,2,TBODY,0,TR,1,TD,1,SPAN,0,A",
+            "selector": "tr > td > span.tablesaw-cell-content > a",
+            "boundingRect": {
+              "top": 507,
+              "bottom": 525,
+              "left": 741,
+              "right": 908,
+              "width": 167,
+              "height": 18
+            },
+            "snippet": "<a href=\"//www.commerce.gov/sites/default/files/ocr/qfeeoprocess.pdf\" target=\"_blank\" rel=\"noopener\">",
+            "nodeLabel": "EEO Complaint Process: pdf",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-254-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,2,TBODY,0,TR",
+                  "selector": "div.clearfix > table#tablesaw-8551 > tbody > tr",
+                  "boundingRect": {
+                    "top": 488,
+                    "bottom": 546,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 59
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Federal EEO Laws: pdf,\nFederal EEO Laws:web page\tEEO Complaint Process: pdf"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-240-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 2126,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2130
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-134-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,2,TBODY,1,TR,0,TD,1,SPAN,0,A",
+            "selector": "tr > td > span.tablesaw-cell-content > a",
+            "boundingRect": {
+              "top": 555,
+              "bottom": 573,
+              "left": 426,
+              "right": 565,
+              "width": 139,
+              "height": 18
+            },
+            "snippet": "<a href=\"//www.commerce.gov/sites/default/files/ocr/qfage.pdf\" target=\"_blank\" rel=\"noopener\">",
+            "nodeLabel": "Age Discrimination: pdf",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-255-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,2,TBODY,1,TR",
+                  "selector": "div.clearfix > table#tablesaw-8551 > tbody > tr",
+                  "boundingRect": {
+                    "top": 546,
+                    "bottom": 605,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 59
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Age Discrimination: pdf,\nAge Discrimination: web page\tComplaint Investigations:…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-240-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 2126,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2130
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-135-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,2,TBODY,1,TR,0,TD,1,SPAN,3,A",
+            "selector": "tr > td > span.tablesaw-cell-content > a",
+            "boundingRect": {
+              "top": 577,
+              "bottom": 595,
+              "left": 426,
+              "right": 604,
+              "width": 178,
+              "height": 18
+            },
+            "snippet": "<a href=\"//www.commerce.gov/cr/reports-and-resources/discrimination-quick-facts/age…\" target=\"_blank\" rel=\"noopener\">",
+            "nodeLabel": "Age Discrimination: web page",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-255-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,2,TBODY,1,TR",
+                  "selector": "div.clearfix > table#tablesaw-8551 > tbody > tr",
+                  "boundingRect": {
+                    "top": 546,
+                    "bottom": 605,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 59
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Age Discrimination: pdf,\nAge Discrimination: web page\tComplaint Investigations:…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-240-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 2126,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2130
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-136-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,2,TBODY,1,TR,1,TD,1,SPAN,0,A",
+            "selector": "tr > td > span.tablesaw-cell-content > a",
+            "boundingRect": {
+              "top": 555,
+              "bottom": 573,
+              "left": 741,
+              "right": 916,
+              "width": 175,
+              "height": 18
+            },
+            "snippet": "<a href=\"//www.commerce.gov/sites/default/files/ocr/qfinvestigations.pdf\" target=\"_blank\" rel=\"noopener\">",
+            "nodeLabel": "Complaint Investigations: pdf",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-255-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,2,TBODY,1,TR",
+                  "selector": "div.clearfix > table#tablesaw-8551 > tbody > tr",
+                  "boundingRect": {
+                    "top": 546,
+                    "bottom": 605,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 59
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Age Discrimination: pdf,\nAge Discrimination: web page\tComplaint Investigations:…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-240-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 2126,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2130
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-137-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,2,TBODY,1,TR,1,TD,1,SPAN,3,A",
+            "selector": "tr > td > span.tablesaw-cell-content > a",
+            "boundingRect": {
+              "top": 577,
+              "bottom": 595,
+              "left": 741,
+              "right": 955,
+              "width": 214,
+              "height": 18
+            },
+            "snippet": "<a href=\"//www.commerce.gov/cr/complaints/complaint-investigations\" target=\"_blank\" rel=\"noopener\">",
+            "nodeLabel": "Complaint Investigations: web page",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-255-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,2,TBODY,1,TR",
+                  "selector": "div.clearfix > table#tablesaw-8551 > tbody > tr",
+                  "boundingRect": {
+                    "top": 546,
+                    "bottom": 605,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 59
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Age Discrimination: pdf,\nAge Discrimination: web page\tComplaint Investigations:…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-240-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 2126,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2130
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-138-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,2,TBODY,2,TR,0,TD,1,SPAN,0,A",
+            "selector": "tr > td > span.tablesaw-cell-content > a",
+            "boundingRect": {
+              "top": 624,
+              "bottom": 642,
+              "left": 426,
+              "right": 596,
+              "width": 170,
+              "height": 18
+            },
+            "snippet": "<a href=\"//www.commerce.gov/sites/default/files/ocr/Disability%20Flyer%202012.pdf\" target=\"_blank\" rel=\"noopener\">",
+            "nodeLabel": "Disability Discrimination: pdf",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-256-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,2,TBODY,2,TR",
+                  "selector": "div.clearfix > table#tablesaw-8551 > tbody > tr",
+                  "boundingRect": {
+                    "top": 605,
+                    "bottom": 664,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 59
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Disability Discrimination: pdf\tMixed Case Complaints: pdf,\nMixed Case Complaint…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-240-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 2126,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2130
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-139-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,2,TBODY,2,TR,1,TD,1,SPAN,0,A",
+            "selector": "tr > td > span.tablesaw-cell-content > a",
+            "boundingRect": {
+              "top": 614,
+              "bottom": 632,
+              "left": 741,
+              "right": 906,
+              "width": 165,
+              "height": 18
+            },
+            "snippet": "<a href=\"//www.commerce.gov/sites/default/files/ocr/qfmixedcase.pdf\" target=\"_blank\" rel=\"noopener\">",
+            "nodeLabel": "Mixed Case Complaints: pdf",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-256-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,2,TBODY,2,TR",
+                  "selector": "div.clearfix > table#tablesaw-8551 > tbody > tr",
+                  "boundingRect": {
+                    "top": 605,
+                    "bottom": 664,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 59
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Disability Discrimination: pdf\tMixed Case Complaints: pdf,\nMixed Case Complaint…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-240-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 2126,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2130
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-140-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,2,TBODY,2,TR,1,TD,1,SPAN,3,A",
+            "selector": "tr > td > span.tablesaw-cell-content > a",
+            "boundingRect": {
+              "top": 635,
+              "bottom": 653,
+              "left": 741,
+              "right": 945,
+              "width": 204,
+              "height": 18
+            },
+            "snippet": "<a href=\"//www.commerce.gov/cr/complaints/complaint-process-manual/mixed-case-compl…\" target=\"_blank\" rel=\"noopener\">",
+            "nodeLabel": "Mixed Case Complaints: web page",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-256-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,2,TBODY,2,TR",
+                  "selector": "div.clearfix > table#tablesaw-8551 > tbody > tr",
+                  "boundingRect": {
+                    "top": 605,
+                    "bottom": 664,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 59
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Disability Discrimination: pdf\tMixed Case Complaints: pdf,\nMixed Case Complaint…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-240-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 2126,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2130
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-141-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,2,TBODY,3,TR,0,TD,1,SPAN,0,A",
+            "selector": "tr > td > span.tablesaw-cell-content > a",
+            "boundingRect": {
+              "top": 672,
+              "bottom": 690,
+              "left": 426,
+              "right": 629,
+              "width": 203,
+              "height": 18
+            },
+            "snippet": "<a href=\"//www.commerce.gov/sites/default/files/ocr/qfnationalorigin.pdf\" target=\"_blank\" rel=\"noopener\">",
+            "nodeLabel": "National Origin Discrimination: pdf",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-257-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,2,TBODY,3,TR",
+                  "selector": "div.clearfix > table#tablesaw-8551 > tbody > tr",
+                  "boundingRect": {
+                    "top": 664,
+                    "bottom": 722,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 59
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "National Origin Discrimination: pdf,\nNational Origin Discrimination: web page\tS…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-240-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 2126,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2130
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-142-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,2,TBODY,3,TR,0,TD,1,SPAN,3,A",
+            "selector": "tr > td > span.tablesaw-cell-content > a",
+            "boundingRect": {
+              "top": 694,
+              "bottom": 712,
+              "left": 426,
+              "right": 668,
+              "width": 242,
+              "height": 18
+            },
+            "snippet": "<a href=\"//www.commerce.gov/cr/reports-and-resources/discrimination-quick-facts/nat…\" target=\"_blank\" rel=\"noopener\">",
+            "nodeLabel": "National Origin Discrimination: web page",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-257-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,2,TBODY,3,TR",
+                  "selector": "div.clearfix > table#tablesaw-8551 > tbody > tr",
+                  "boundingRect": {
+                    "top": 664,
+                    "bottom": 722,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 59
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "National Origin Discrimination: pdf,\nNational Origin Discrimination: web page\tS…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-240-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 2126,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2130
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-143-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,2,TBODY,3,TR,1,TD,1,SPAN,0,A",
+            "selector": "tr > td > span.tablesaw-cell-content > a",
+            "boundingRect": {
+              "top": 672,
+              "bottom": 690,
+              "left": 741,
+              "right": 1082,
+              "width": 341,
+              "height": 18
+            },
+            "snippet": "<a href=\"//www.commerce.gov/sites/default/files/ocr/qfsod.pdf\" target=\"_blank\" rel=\"noopener\">",
+            "nodeLabel": "Sexual Orientation Discrimination Complaint Process: pdf",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-257-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,2,TBODY,3,TR",
+                  "selector": "div.clearfix > table#tablesaw-8551 > tbody > tr",
+                  "boundingRect": {
+                    "top": 664,
+                    "bottom": 722,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 59
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "National Origin Discrimination: pdf,\nNational Origin Discrimination: web page\tS…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-240-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 2126,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2130
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-144-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,2,TBODY,3,TR,1,TD,1,SPAN,3,A",
+            "selector": "tr > td > span.tablesaw-cell-content > a",
+            "boundingRect": {
+              "top": 694,
+              "bottom": 712,
+              "left": 741,
+              "right": 1121,
+              "width": 380,
+              "height": 18
+            },
+            "snippet": "<a href=\"//www.commerce.gov/cr/complaints/sexual-orientation-discrimination-complai…\" target=\"_blank\" rel=\"noopener\">",
+            "nodeLabel": "Sexual Orientation Discrimination Complaint Process: web page",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-257-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,2,TBODY,3,TR",
+                  "selector": "div.clearfix > table#tablesaw-8551 > tbody > tr",
+                  "boundingRect": {
+                    "top": 664,
+                    "bottom": 722,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 59
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "National Origin Discrimination: pdf,\nNational Origin Discrimination: web page\tS…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-240-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 2126,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2130
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-145-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,2,TBODY,4,TR,0,TD,1,SPAN,0,A",
+            "selector": "tr > td > span.tablesaw-cell-content > a",
+            "boundingRect": {
+              "top": 731,
+              "bottom": 749,
+              "left": 426,
+              "right": 605,
+              "width": 179,
+              "height": 18
+            },
+            "snippet": "<a href=\"//www.commerce.gov/sites/default/files/ocr/qfpregnancy.pdf\" target=\"_blank\" rel=\"noopener\">",
+            "nodeLabel": "Pregnancy Discrimination: pdf",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-258-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,2,TBODY,4,TR",
+                  "selector": "div.clearfix > table#tablesaw-8551 > tbody > tr",
+                  "boundingRect": {
+                    "top": 722,
+                    "bottom": 781,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 59
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Pregnancy Discrimination: pdf,\nPregnancy Discrimination: web page\t "
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-240-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 2126,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2130
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-146-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,2,TBODY,4,TR,0,TD,1,SPAN,3,A",
+            "selector": "tr > td > span.tablesaw-cell-content > a",
+            "boundingRect": {
+              "top": 752,
+              "bottom": 770,
+              "left": 426,
+              "right": 644,
+              "width": 218,
+              "height": 18
+            },
+            "snippet": "<a href=\"//www.commerce.gov/cr/reports-and-resources/discrimination-quick-facts/pre…\" target=\"_blank\" rel=\"noopener\">",
+            "nodeLabel": "Pregnancy Discrimination: web page",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-258-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,2,TBODY,4,TR",
+                  "selector": "div.clearfix > table#tablesaw-8551 > tbody > tr",
+                  "boundingRect": {
+                    "top": 722,
+                    "bottom": 781,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 59
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Pregnancy Discrimination: pdf,\nPregnancy Discrimination: web page\t "
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-240-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 2126,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2130
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-147-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,2,TBODY,5,TR,0,TD,1,SPAN,0,A",
+            "selector": "tr > td > span.tablesaw-cell-content > a",
+            "boundingRect": {
+              "top": 789,
+              "bottom": 807,
+              "left": 426,
+              "right": 628,
+              "width": 202,
+              "height": 18
+            },
+            "snippet": "<a href=\"//www.commerce.gov/sites/default/files/ocr/qfrace.pdf\" target=\"_blank\" rel=\"noopener\">",
+            "nodeLabel": "Race and Color Discrimination:pdf",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-259-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,2,TBODY,5,TR",
+                  "selector": "div.clearfix > table#tablesaw-8551 > tbody > tr",
+                  "boundingRect": {
+                    "top": 781,
+                    "bottom": 839,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 59
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Race and Color Discrimination:pdf,\nRace and Color Discrimination:web page\t "
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-240-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 2126,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2130
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-148-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,2,TBODY,5,TR,0,TD,1,SPAN,3,A",
+            "selector": "tr > td > span.tablesaw-cell-content > a",
+            "boundingRect": {
+              "top": 811,
+              "bottom": 829,
+              "left": 426,
+              "right": 667,
+              "width": 241,
+              "height": 18
+            },
+            "snippet": "<a href=\"//www.commerce.gov/cr/reports-and-resources/discrimination-quick-facts/rac…\" target=\"_blank\" rel=\"noopener\">",
+            "nodeLabel": "Race and Color Discrimination:web page",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-259-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,2,TBODY,5,TR",
+                  "selector": "div.clearfix > table#tablesaw-8551 > tbody > tr",
+                  "boundingRect": {
+                    "top": 781,
+                    "bottom": 839,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 59
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Race and Color Discrimination:pdf,\nRace and Color Discrimination:web page\t "
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-240-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 2126,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2130
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-149-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,2,TBODY,6,TR,0,TD,1,SPAN,0,A",
+            "selector": "tr > td > span.tablesaw-cell-content > a",
+            "boundingRect": {
+              "top": 848,
+              "bottom": 866,
+              "left": 426,
+              "right": 596,
+              "width": 170,
+              "height": 18
+            },
+            "snippet": "<a href=\"//www.commerce.gov/sites/default/files/ocr/qfreligion.pdf\" target=\"_blank\" rel=\"noopener\">",
+            "nodeLabel": "Religious Discrimination: pdf",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-260-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,2,TBODY,6,TR",
+                  "selector": "div.clearfix > table#tablesaw-8551 > tbody > tr",
+                  "boundingRect": {
+                    "top": 839,
+                    "bottom": 898,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 59
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Religious Discrimination: pdf,\nReligious Discrimination: web page\t "
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-240-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 2126,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2130
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-150-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,2,TBODY,6,TR,0,TD,1,SPAN,3,A",
+            "selector": "tr > td > span.tablesaw-cell-content > a",
+            "boundingRect": {
+              "top": 869,
+              "bottom": 887,
+              "left": 426,
+              "right": 635,
+              "width": 209,
+              "height": 18
+            },
+            "snippet": "<a href=\"//www.commerce.gov/cr/reports-and-resources/discrimination-quick-facts/rel…\" target=\"_blank\" rel=\"noopener\">",
+            "nodeLabel": "Religious Discrimination: web page",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-260-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,2,TBODY,6,TR",
+                  "selector": "div.clearfix > table#tablesaw-8551 > tbody > tr",
+                  "boundingRect": {
+                    "top": 839,
+                    "bottom": 898,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 59
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Religious Discrimination: pdf,\nReligious Discrimination: web page\t "
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-240-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 2126,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2130
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-151-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,2,TBODY,7,TR,0,TD,1,SPAN,0,A",
+            "selector": "tr > td > span.tablesaw-cell-content > a",
+            "boundingRect": {
+              "top": 906,
+              "bottom": 924,
+              "left": 426,
+              "right": 568,
+              "width": 142,
+              "height": 18
+            },
+            "snippet": "<a href=\"//www.commerce.gov/sites/default/files/ocr/sharass.pdf\" target=\"_blank\" rel=\"noopener\">",
+            "nodeLabel": "Sexual Harassment: pdf",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-261-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,2,TBODY,7,TR",
+                  "selector": "div.clearfix > table#tablesaw-8551 > tbody > tr",
+                  "boundingRect": {
+                    "top": 898,
+                    "bottom": 935,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 37
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "Sexual Harassment: pdf\t "
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-240-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 2126,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2130
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-152-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,3,TABLE,2,TBODY,0,TR,1,TD,1,SPAN,0,A",
+            "selector": "tr > td > span.tablesaw-cell-content > a",
+            "boundingRect": {
+              "top": 1083,
+              "bottom": 1101,
+              "left": 604,
+              "right": 965,
+              "width": 361,
+              "height": 18
+            },
+            "snippet": "<a href=\"//www.commerce.gov/sites/default/files/ocr/sobooklet.pdf\">",
+            "nodeLabel": "Sexual Orientation Discrimination, Questions & Answers: pdf",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-262-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,3,TABLE,2,TBODY,0,TR",
+                  "selector": "div.clearfix > table#tablesaw-2914 > tbody > tr",
+                  "boundingRect": {
+                    "top": 1021,
+                    "bottom": 1185,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 164
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "\tSexual Orientation Discrimination, Questions & Answers: pdf,\nSexual Orientatio…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-240-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 2126,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2130
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-153-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,3,TABLE,2,TBODY,0,TR,1,TD,1,SPAN,3,A",
+            "selector": "tr > td > span.tablesaw-cell-content > a",
+            "boundingRect": {
+              "top": 1104,
+              "bottom": 1122,
+              "left": 604,
+              "right": 1004,
+              "width": 400,
+              "height": 18
+            },
+            "snippet": "<a href=\"//www.commerce.gov/cr/reports-and-resources/discrimination-quick-facts/sex…\">",
+            "nodeLabel": "Sexual Orientation Discrimination, Questions & Answers: web page",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-262-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,3,TABLE,2,TBODY,0,TR",
+                  "selector": "div.clearfix > table#tablesaw-2914 > tbody > tr",
+                  "boundingRect": {
+                    "top": 1021,
+                    "bottom": 1185,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 164
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "\tSexual Orientation Discrimination, Questions & Answers: pdf,\nSexual Orientatio…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-240-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 2126,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2130
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-154-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,3,TABLE,2,TBODY,1,TR,1,TD,1,SPAN,0,A",
+            "selector": "tr > td > span.tablesaw-cell-content > a",
+            "boundingRect": {
+              "top": 1251,
+              "bottom": 1269,
+              "left": 604,
+              "right": 755,
+              "width": 151,
+              "height": 18
+            },
+            "snippet": "<a href=\"//www.commerce.gov/sites/default/files/ocr/mediationguide.pdf\">",
+            "nodeLabel": "EEO Mediation Guide: pdf",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-263-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,3,TABLE,2,TBODY,1,TR",
+                  "selector": "div.clearfix > table#tablesaw-2914 > tbody > tr",
+                  "boundingRect": {
+                    "top": 1185,
+                    "bottom": 1358,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 173
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "\tEEO Mediation Guide: pdf,\nEEO Mediation Guide: web page"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-240-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 2126,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2130
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-155-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,3,TABLE,2,TBODY,1,TR,1,TD,1,SPAN,3,A",
+            "selector": "tr > td > span.tablesaw-cell-content > a",
+            "boundingRect": {
+              "top": 1273,
+              "bottom": 1291,
+              "left": 604,
+              "right": 794,
+              "width": 190,
+              "height": 18
+            },
+            "snippet": "<a href=\"//www.commerce.gov/cr/reports-and-resources/eeo-mediation-guide\">",
+            "nodeLabel": "EEO Mediation Guide: web page",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-263-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,3,TABLE,2,TBODY,1,TR",
+                  "selector": "div.clearfix > table#tablesaw-2914 > tbody > tr",
+                  "boundingRect": {
+                    "top": 1185,
+                    "bottom": 1358,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 173
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "\tEEO Mediation Guide: pdf,\nEEO Mediation Guide: web page"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-240-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 2126,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2130
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 25
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-264-H4",
+            "path": "1,HTML,1,BODY,1,DIV,4,FOOTER,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,SECTION,0,H4",
+            "selector": "div.grid-row > div.mobile-lg:grid-col-6 > section.usa-footer__primary-content > h4.usa-footer__primary-link",
+            "boundingRect": {
+              "top": 1461,
+              "bottom": 1481,
+              "left": 171,
+              "right": 485,
+              "width": 314,
+              "height": 20
+            },
+            "snippet": "<h4 class=\"usa-footer__primary-link\">",
+            "nodeLabel": "Explore",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

@@ -1,0 +1,127 @@
+[
+  {
+    "id": "frame-title",
+    "title": "`<frame>` or `<iframe>` elements do not have a title",
+    "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more](https://web.dev/frame-title/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-256-IFRAME",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,1,DIV,0,DIV,0,DIV,4,IFRAME",
+            "selector": "div.clearfix > div.WordSection1 > div.WordSection1 > iframe",
+            "boundingRect": {
+              "top": 756,
+              "bottom": 1071,
+              "left": 415,
+              "right": 975,
+              "width": 560,
+              "height": 315
+            },
+            "snippet": "<iframe height=\"315\" src=\"https://www.youtube.com/embed/TjCgS9Gk_HE\" width=\"560\">",
+            "nodeLabel": "div.clearfix > div.WordSection1 > div.WordSection1 > iframe",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag241",
+          "wcag412",
+          "section508",
+          "section508.22.i"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-257-H4",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,1,DIV,0,DIV,0,DIV,5,BLOCKQUOTE,0,H4",
+            "selector": "div.WordSection1 > div.WordSection1 > blockquote > h4.MsoNormal",
+            "boundingRect": {
+              "top": 1103,
+              "bottom": 1191,
+              "left": 455,
+              "right": 1173,
+              "width": 718,
+              "height": 87
+            },
+            "snippet": "<h4 class=\"MsoNormal\">",
+            "nodeLabel": "We know that if we really believe in diversity and inclusion and we want people…",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "15-258-H5",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,1,DIV,0,DIV,0,DIV,19,H5",
+            "selector": "div.clearfix > div.WordSection1 > div.WordSection1 > h5",
+            "boundingRect": {
+              "top": 2230,
+              "bottom": 2303,
+              "left": 415,
+              "right": 1213,
+              "width": 798,
+              "height": 72
+            },
+            "snippet": "<h5>",
+            "nodeLabel": "Launch of the FGP Community of Practice and the OMB MAX Page. With the support …",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]
