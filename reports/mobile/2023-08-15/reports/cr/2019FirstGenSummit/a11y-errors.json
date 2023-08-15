@@ -1,0 +1,320 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "45-231-BUTTON",
+            "path": "1,HTML,1,BODY,12,DIV,2,DIV,0,DIV,1,DIV,4,DIV,0,BUTTON",
+            "selector": "div.prefix-overlay-inner > div#prefix-overlay-step1 > div.prefix-overlay-button-panel > button#prefix-dismissButton",
+            "boundingRect": {
+              "top": 250,
+              "bottom": 268,
+              "left": 206,
+              "right": 278,
+              "width": 72,
+              "height": 18
+            },
+            "snippet": "<button class=\"prefix-overlay-action-dismiss\" id=\"prefix-dismissButton\">",
+            "nodeLabel": "No Thanks",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.16 (foreground color: #3276b1, background color: #e7f0f5, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "45-232-DIV",
+                  "path": "1,HTML,1,BODY,12,DIV,2,DIV",
+                  "selector": "body.ocr-site > div#scopedByScopedPolyfill_1 > div#prefix-overlay-outer",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 283,
+                    "left": 57,
+                    "right": 537,
+                    "width": 480,
+                    "height": 283
+                  },
+                  "snippet": "<div id=\"prefix-overlay-outer\" tabindex=\"0\" role=\"dialog\" aria-describedby=\"prefix-overlay-step1\">",
+                  "nodeLabel": "Close subscription dialog\n\nInterested in regular updates?\n\nEnter your email add…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "45-233-BUTTON",
+            "path": "1,HTML,1,BODY,12,DIV,2,DIV,0,DIV,1,DIV,4,DIV,1,BUTTON",
+            "selector": "div.prefix-overlay-inner > div#prefix-overlay-step1 > div.prefix-overlay-button-panel > button#prefix-laterButton",
+            "boundingRect": {
+              "top": 250,
+              "bottom": 268,
+              "left": 281,
+              "right": 388,
+              "width": 107,
+              "height": 18
+            },
+            "snippet": "<button class=\"prefix-overlay-action-later\" id=\"prefix-laterButton\">",
+            "nodeLabel": "Remind Me Later",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.16 (foreground color: #3276b1, background color: #e7f0f5, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "45-232-DIV",
+                  "path": "1,HTML,1,BODY,12,DIV,2,DIV",
+                  "selector": "body.ocr-site > div#scopedByScopedPolyfill_1 > div#prefix-overlay-outer",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 283,
+                    "left": 57,
+                    "right": 537,
+                    "width": 480,
+                    "height": 283
+                  },
+                  "snippet": "<div id=\"prefix-overlay-outer\" tabindex=\"0\" role=\"dialog\" aria-describedby=\"prefix-overlay-step1\">",
+                  "nodeLabel": "Close subscription dialog\n\nInterested in regular updates?\n\nEnter your email add…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "frame-title",
+    "title": "`<frame>` or `<iframe>` elements do not have a title",
+    "description": "Screen reader users rely on frame titles to describe the contents of frames. [Learn more](https://web.dev/frame-title/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "45-234-IFRAME",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,1,DIV,5,P,0,IFRAME",
+            "selector": "div > div.clearfix > p > iframe",
+            "boundingRect": {
+              "top": 2051,
+              "bottom": 2366,
+              "left": 34,
+              "right": 594,
+              "width": 560,
+              "height": 315
+            },
+            "snippet": "<iframe height=\"315\" src=\"https://www.youtube.com/embed/FVM18q6QhjU\" width=\"560\">",
+            "nodeLabel": "div > div.clearfix > p > iframe",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "45-235-IFRAME",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,1,DIV,7,P,0,IFRAME",
+            "selector": "div > div.clearfix > p > iframe",
+            "boundingRect": {
+              "top": 2507,
+              "bottom": 2822,
+              "left": 34,
+              "right": 594,
+              "width": 560,
+              "height": 315
+            },
+            "snippet": "<iframe height=\"315\" src=\"https://www.youtube.com/embed/eg1EXVY_nXA\" width=\"560\">",
+            "nodeLabel": "div > div.clearfix > p > iframe",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "45-236-IFRAME",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,1,DIV,9,P,0,IFRAME",
+            "selector": "div > div.clearfix > p > iframe",
+            "boundingRect": {
+              "top": 2888,
+              "bottom": 3203,
+              "left": 34,
+              "right": 594,
+              "width": 560,
+              "height": 315
+            },
+            "snippet": "<iframe height=\"315\" src=\"https://www.youtube.com/embed/PmVP_fDXrBc\" width=\"560\">",
+            "nodeLabel": "div > div.clearfix > p > iframe",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "45-237-IFRAME",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,1,DIV,11,P,0,IFRAME",
+            "selector": "div > div.clearfix > p > iframe",
+            "boundingRect": {
+              "top": 3345,
+              "bottom": 3660,
+              "left": 34,
+              "right": 594,
+              "width": 560,
+              "height": 315
+            },
+            "snippet": "<iframe height=\"315\" src=\"https://www.youtube.com/embed/LmSFTDdXzKU\" width=\"560\">",
+            "nodeLabel": "div > div.clearfix > p > iframe",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "45-238-IFRAME",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,1,DIV,13,P,0,IFRAME",
+            "selector": "div > div.clearfix > p > iframe",
+            "boundingRect": {
+              "top": 3726,
+              "bottom": 4041,
+              "left": 34,
+              "right": 594,
+              "width": 560,
+              "height": 315
+            },
+            "snippet": "<iframe height=\"315\" src=\"https://www.youtube.com/embed/xCR5TnGP3sk\" width=\"560\">",
+            "nodeLabel": "div > div.clearfix > p > iframe",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "45-239-IFRAME",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,1,DIV,15,P,0,IFRAME",
+            "selector": "div > div.clearfix > p > iframe",
+            "boundingRect": {
+              "top": 4157,
+              "bottom": 4472,
+              "left": 34,
+              "right": 594,
+              "width": 560,
+              "height": 315
+            },
+            "snippet": "<iframe height=\"315\" src=\"https://www.youtube.com/embed/f_WZxkMHeG4\" width=\"560\">",
+            "nodeLabel": "div > div.clearfix > p > iframe",
+            "explanation": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag241",
+          "wcag412",
+          "section508",
+          "section508.22.i"
+        ]
+      }
+    },
+    "errorCount": 6
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "45-240-H4",
+            "path": "1,HTML,1,BODY,1,DIV,4,FOOTER,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,SECTION,0,H4",
+            "selector": "div.grid-row > div.mobile-lg:grid-col-6 > section.usa-footer__primary-content > h4.usa-footer__primary-link",
+            "boundingRect": {
+              "top": 4670,
+              "bottom": 4725,
+              "left": 17,
+              "right": 395,
+              "width": 378,
+              "height": 55
+            },
+            "snippet": "<h4 class=\"usa-footer__primary-link\">",
+            "nodeLabel": "Explore",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
