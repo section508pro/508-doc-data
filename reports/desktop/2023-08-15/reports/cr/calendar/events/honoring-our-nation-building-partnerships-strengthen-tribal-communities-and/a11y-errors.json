@@ -1,0 +1,128 @@
+[
+  {
+    "id": "duplicate-id-aria",
+    "title": "ARIA IDs are not unique",
+    "description": "The value of an ARIA ID must be unique to prevent other instances from being overlooked by assistive technologies. [Learn more](https://web.dev/duplicate-id-aria/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-222-INPUT",
+            "path": "1,HTML,1,BODY,1,DIV,2,HEADER,1,NAV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,FORM,0,DIV,1,INPUT",
+            "selector": "div#block-usasearchform-mobile > form#usasearch-search-block-form > div.js-form-item > input#desktop_query",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<input aria-autocomplete=\"list\" aria-haspopup=\"\" autocomplete=\"off\" class=\"usagov-search-autocomplete form-search ui-autocomplete-input\" data-drupal-selector=\"edit-query\" id=\"desktop_query\" maxlength=\"128\" name=\"query\" placeholder=\"Search\" size=\"60\" type=\"search\" value=\"\">",
+            "nodeLabel": "div#block-usasearchform-mobile > form#usasearch-search-block-form > div.js-form-item > input#desktop_query",
+            "explanation": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: desktop_query"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-210-INPUT",
+                  "path": "1,HTML,1,BODY,1,DIV,2,HEADER,1,NAV,1,DIV,1,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,FORM,0,DIV,1,INPUT",
+                  "selector": "div#block-usasearchform > form.usasearch-search-block-form-desktop > div.js-form-item > input#desktop_query",
+                  "boundingRect": {
+                    "top": 253,
+                    "bottom": 299,
+                    "left": 910,
+                    "right": 1119,
+                    "width": 209,
+                    "height": 46
+                  },
+                  "snippet": "<input aria-autocomplete=\"list\" aria-haspopup=\"\" autocomplete=\"off\" class=\"usagov-search-autocomplete form-search ui-autocomplete-input\" data-drupal-selector=\"edit-query\" id=\"desktop_query\" maxlength=\"128\" name=\"query\" placeholder=\"Search\" size=\"60\" type=\"search\" value=\"\">",
+                  "nodeLabel": "div#block-usasearchform > form.usasearch-search-block-form-desktop > div.js-form-item > input#desktop_query"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.parsing",
+          "wcag2a",
+          "wcag411"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-223-H4",
+            "path": "1,HTML,1,BODY,1,DIV,4,FOOTER,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,SECTION,0,H4",
+            "selector": "div.grid-row > div.mobile-lg:grid-col-6 > section.usa-footer__primary-content > h4.usa-footer__primary-link",
+            "boundingRect": {
+              "top": 1633,
+              "bottom": 1652,
+              "left": 171,
+              "right": 485,
+              "width": 314,
+              "height": 20
+            },
+            "snippet": "<h4 class=\"usa-footer__primary-link\">",
+            "nodeLabel": "Explore",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
