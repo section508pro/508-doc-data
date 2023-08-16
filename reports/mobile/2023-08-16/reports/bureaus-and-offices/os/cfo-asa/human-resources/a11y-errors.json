@@ -1,0 +1,212 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-190-A",
+            "path": "1,HTML,1,BODY,1,DIV,4,MAIN,1,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,1,P,0,A",
+            "selector": "div#block-block-content-df949c81-9e5d-4fed-94ce-1765db506f17 > div.clearfix > p.hr-teaser-readmore > a",
+            "boundingRect": {
+              "top": 778,
+              "bottom": 797,
+              "left": 67,
+              "right": 288,
+              "width": 221,
+              "height": 19
+            },
+            "snippet": "<a href=\"//www.commerce.gov/hr/employees/work-life-balance\" target=\"_self\" rel=\"noopener\">",
+            "nodeLabel": "More about Work-life Balance",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3 (foreground color: #28a0cb, background color: #ffffff, font size: 12.6pt (16.8px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-286-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ohrm-site",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 3502,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 3502
+                  },
+                  "snippet": "<body class=\"ohrm-site ohrm-frontpage path-hr\">",
+                  "nodeLabel": "body.ohrm-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-287-BUTTON",
+            "path": "1,HTML,1,BODY,12,DIV,2,DIV,0,DIV,1,DIV,4,DIV,0,BUTTON",
+            "selector": "div.prefix-overlay-inner > div#prefix-overlay-step1 > div.prefix-overlay-button-panel > button#prefix-dismissButton",
+            "boundingRect": {
+              "top": 241,
+              "bottom": 259,
+              "left": 115,
+              "right": 187,
+              "width": 72,
+              "height": 18
+            },
+            "snippet": "<button class=\"prefix-overlay-action-dismiss\" id=\"prefix-dismissButton\">",
+            "nodeLabel": "No Thanks",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.16 (foreground color: #3276b1, background color: #e7f0f5, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-288-DIV",
+                  "path": "1,HTML,1,BODY,12,DIV,2,DIV",
+                  "selector": "body.ohrm-site > div#scopedByScopedPolyfill_1 > div#prefix-overlay-outer",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 274,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 274
+                  },
+                  "snippet": "<div id=\"prefix-overlay-outer\" tabindex=\"0\" role=\"dialog\" aria-describedby=\"prefix-overlay-step1\">",
+                  "nodeLabel": "Close subscription dialog\n\nInterested in regular updates?\n\nEnter your email add…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-289-BUTTON",
+            "path": "1,HTML,1,BODY,12,DIV,2,DIV,0,DIV,1,DIV,4,DIV,1,BUTTON",
+            "selector": "div.prefix-overlay-inner > div#prefix-overlay-step1 > div.prefix-overlay-button-panel > button#prefix-laterButton",
+            "boundingRect": {
+              "top": 241,
+              "bottom": 259,
+              "left": 190,
+              "right": 297,
+              "width": 107,
+              "height": 18
+            },
+            "snippet": "<button class=\"prefix-overlay-action-later\" id=\"prefix-laterButton\">",
+            "nodeLabel": "Remind Me Later",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.16 (foreground color: #3276b1, background color: #e7f0f5, font size: 9.0pt (12px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-288-DIV",
+                  "path": "1,HTML,1,BODY,12,DIV,2,DIV",
+                  "selector": "body.ohrm-site > div#scopedByScopedPolyfill_1 > div#prefix-overlay-outer",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 274,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 274
+                  },
+                  "snippet": "<div id=\"prefix-overlay-outer\" tabindex=\"0\" role=\"dialog\" aria-describedby=\"prefix-overlay-step1\">",
+                  "nodeLabel": "Close subscription dialog\n\nInterested in regular updates?\n\nEnter your email add…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 3
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-290-H4",
+            "path": "1,HTML,1,BODY,1,DIV,4,MAIN,1,DIV,1,DIV,0,DIV,0,DIV,2,DIV,0,DIV,0,DIV,0,DIV,0,DIV,2,DIV,0,H4",
+            "selector": "div.view-content > div.top-stories > div > h4.top-stories-head",
+            "boundingRect": {
+              "top": 1504,
+              "bottom": 1526,
+              "left": 34,
+              "right": 365,
+              "width": 332,
+              "height": 22
+            },
+            "snippet": "<h4 class=\"top-stories-head\">",
+            "nodeLabel": "Overview",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
