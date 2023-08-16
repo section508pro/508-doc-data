@@ -1,0 +1,386 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-131-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,1,TBODY,0,TR,4,TD,1,SPAN,0,A",
+            "selector": "tr > td > span.tablesaw-cell-content > a.mailto",
+            "boundingRect": {
+              "top": 508,
+              "bottom": 526,
+              "left": 989,
+              "right": 1176,
+              "width": 187,
+              "height": 18
+            },
+            "snippet": "<a href=\"mailto:donna.peterkin@census.gov\" rel=\"noreferrer\" class=\"mailto\" data-extlink=\"\">",
+            "nodeLabel": "donna.peterkin@census.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-244-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,1,TBODY,0,TR",
+                  "selector": "div.clearfix > table#tablesaw-2898 > tbody > tr",
+                  "boundingRect": {
+                    "top": 449,
+                    "bottom": 586,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 137
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "\tDonna Peterkin\tEEO Director\t301-763-5614\tdonna.peterkin@census.gov "
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-230-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 2265,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2269
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-132-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,1,TBODY,1,TR,4,TD,1,SPAN,0,A",
+            "selector": "tr > td > span.tablesaw-cell-content > a.mailto",
+            "boundingRect": {
+              "top": 608,
+              "bottom": 626,
+              "left": 989,
+              "right": 1165,
+              "width": 176,
+              "height": 18
+            },
+            "snippet": "<a href=\"mailto:mirta-marie.keys@nist.gov\" rel=\"noreferrer\" class=\"mailto\" data-extlink=\"\">",
+            "nodeLabel": "mirta-marie.keys@nist.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-245-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,1,TBODY,1,TR",
+                  "selector": "div.clearfix > table#tablesaw-2898 > tbody > tr",
+                  "boundingRect": {
+                    "top": 586,
+                    "bottom": 650,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 64
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "\tMirta-Marie Keys\tEEO Director\t301-975-2042\tmirta-marie.keys@nist.gov"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-230-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 2265,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2269
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-133-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,1,TBODY,2,TR,4,TD,1,SPAN,0,A",
+            "selector": "tr > td > span.tablesaw-cell-content > a.mailto",
+            "boundingRect": {
+              "top": 709,
+              "bottom": 727,
+              "left": 989,
+              "right": 1148,
+              "width": 159,
+              "height": 18
+            },
+            "snippet": "<a href=\"mailto:richard.grant@noaa.gov\" rel=\"noreferrer\" class=\"mailto\" data-extlink=\"\">",
+            "nodeLabel": "richard.grant@noaa.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-246-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,1,TBODY,2,TR",
+                  "selector": "div.clearfix > table#tablesaw-2898 > tbody > tr",
+                  "boundingRect": {
+                    "top": 650,
+                    "bottom": 787,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 137
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "\tRichard Grant\tActing EEO Director\t301-713-0500\trichard.grant@noaa.gov"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-230-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 2265,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2269
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-134-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,1,TBODY,3,TR,4,TD,1,SPAN,0,A",
+            "selector": "tr > td > span.tablesaw-cell-content > a.mailto",
+            "boundingRect": {
+              "top": 846,
+              "bottom": 864,
+              "left": 989,
+              "right": 1177,
+              "width": 188,
+              "height": 18
+            },
+            "snippet": "<a href=\"mailto:Maria.Campo@USPTO.GOV\" rel=\"noreferrer\" class=\"mailto\" data-extlink=\"\">",
+            "nodeLabel": "Bismark.Myrick@USPTO.GOV",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-247-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,1,TBODY,3,TR",
+                  "selector": "div.clearfix > table#tablesaw-2898 > tbody > tr",
+                  "boundingRect": {
+                    "top": 787,
+                    "bottom": 924,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 137
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "\tBismarck Myrick\tEEO Director\t571-272-8292\tBismark.Myrick@USPTO.GOV"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-230-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 2265,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2269
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-135-A",
+            "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,1,TBODY,4,TR,4,TD,1,SPAN,0,A",
+            "selector": "tr > td > span.tablesaw-cell-content > a.mailto",
+            "boundingRect": {
+              "top": 993,
+              "bottom": 1011,
+              "left": 989,
+              "right": 1115,
+              "width": 126,
+              "height": 18
+            },
+            "snippet": "<a href=\"mailto:bworthy@doc.gov\" rel=\"noreferrer\" class=\"mailto\" data-extlink=\"\">",
+            "nodeLabel": "bworthy@doc.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.4 (foreground color: #6666b7, background color: #efefef, font size: 10.8pt (14.3976px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-248-TR",
+                  "path": "1,HTML,1,BODY,1,DIV,3,MAIN,1,DIV,1,DIV,1,DIV,0,DIV,3,DIV,0,ARTICLE,1,DIV,0,DIV,1,TABLE,1,TBODY,4,TR",
+                  "selector": "div.clearfix > table#tablesaw-2898 > tbody > tr",
+                  "boundingRect": {
+                    "top": 924,
+                    "bottom": 1083,
+                    "left": 415,
+                    "right": 1212,
+                    "width": 797,
+                    "height": 159
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "All Other Bureaus*:\n\tBernadette Worthy\tEEO Officer\t202-482-8121\tbworthy@doc.gov"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-230-BODY",
+                  "path": "1,HTML,1,BODY",
+                  "selector": "body.ocr-site",
+                  "boundingRect": {
+                    "top": -4,
+                    "bottom": 2265,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2269
+                  },
+                  "snippet": "<body class=\"ocr-site ocr-frontpage path-node page-node-type-page\">",
+                  "nodeLabel": "body.ocr-site"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 5
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-249-H4",
+            "path": "1,HTML,1,BODY,1,DIV,4,FOOTER,1,DIV,0,DIV,0,DIV,0,DIV,0,DIV,0,SECTION,0,H4",
+            "selector": "div.grid-row > div.mobile-lg:grid-col-6 > section.usa-footer__primary-content > h4.usa-footer__primary-link",
+            "boundingRect": {
+              "top": 1600,
+              "bottom": 1620,
+              "left": 171,
+              "right": 485,
+              "width": 314,
+              "height": 20
+            },
+            "snippet": "<h4 class=\"usa-footer__primary-link\">",
+            "nodeLabel": "Explore",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
